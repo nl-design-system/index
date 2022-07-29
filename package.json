@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0-alpha.0",
+  "author": "Community for NL Design System",
+  "description": "Design system based on the NL Design System architecture",
+  "license": "EUPL-1.2",
+  "name": "@nl-design-system/index",
+  "keywords": [
+    "nl-design-system"
+  ],
+  "private": true,
+  "engines": {
+    "node": "^16.13.0",
+    "npm": "^8"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "16.11.26",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "eslint": "8.12.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-json": "3.1.0",
+    "eslint-plugin-mdx": "1.17.0",
+    "husky": "7.0.4",
+    "lerna": "4.0.0",
+    "lint-staged": "12.3.7",
+    "markdownlint-cli": "0.31.1",
+    "npm-check-updates": "12.5.8",
+    "npm-package-json-lint": "6.3.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.6.2"
+  },
+  "scripts": {
+    "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
+    "lint:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --report-unused-disable-directives .",
+    "lint:md": "markdownlint '**/*.md'",
+    "lint:package-json": "npmPkgJsonLint '**/package.json'",
+    "lint:package-lock": "npm ls",
+    "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
+    "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --fix --report-unused-disable-directives .",
+    "lint-fix:md": "markdownlint --fix '**/*.md'",
+    "lint-workspaces": "lerna run --no-bail lint",
+    "prepare": "husky install",
+    "prettier": "prettier --write .",
+    "publish": "lerna publish from-package",
+    "release": "lerna version prerelease --no-changelog --no-private",
+    "update-patch": "npm-check-updates --configFileName .ncurc.patch.js --deep --dep dev,prod --target patch --upgrade && npm install --legacy-peer-deps",
+    "update-minor": "npm-check-updates --configFileName .ncurc.minor.js --deep --dep dev,prod --target minor --upgrade && npm install --legacy-peer-deps",
+    "update-major": "npm-check-updates --configFileName .ncurc.major.js --deep --dep dev,prod --target latest --upgrade && npm install --legacy-peer-deps"
+  }
+}
