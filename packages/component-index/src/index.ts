@@ -1,33 +1,58 @@
-export const COMPONENT_TYPES = {
-  CSS: 'CSS',
-  HTML: 'HTML',
-  WEB_COMPONENT: 'Web Component',
-  REACT: 'React',
-  VUE: 'Vue',
-  ANGULAR: 'Angular',
-  FIGMA: 'Figma',
+declare interface DesignSystemComponent {
+  id: string;
+  name: string;
+  aliases?: string[];
+  communityDocs?: CommunityDocumentation[];
+  implementations?: ComponentImplementation[];
+  preview?: string;
+  backlog: string;
+  state: COMPONENT_STATES;
 }
 
-export const ORGANISATIONS = {
-  DEN_HAAG : 'Gemeente Den Haag',
-  UTRECHT : 'Gemeente Utrecht',
-  NLDS : 'NL Design System',
+declare interface CommunityDocumentation {
+  type: DOCUMENTATION_TYPES;
+  organisation: ORGANISATIONS;
+  href: string;
 }
 
-export const COMPONENT_STATES = {
-  TODO : 'Help Wanted',
-  COMMUNITY : 'Community',
-  NL_UNSTABLE : 'Candidate',
-  NL_STABLE : 'Hall of fame',
+declare interface ComponentImplementation {
+  organisation: ORGANISATIONS;
+  type: COMPONENT_TYPES;
+  implementation: string;
+  package?: string;
+  story?: string;
 }
 
-export const DOCUMENTATION_TYPES ={
-  UX: 'UX',
-  A11Y: 'A11y',
-  COPY: 'Content richtlijnen',
+export enum COMPONENT_TYPES {
+  CSS = 'CSS',
+  HTML = 'HTML',
+  WEB_COMPONENT = 'Web Component',
+  REACT = 'React',
+  VUE = 'Vue',
+  ANGULAR = 'Angular',
+  FIGMA = 'Figma',
 }
 
-export const componentIndex = [
+export enum ORGANISATIONS {
+  DEN_HAAG = 'Gemeente Den Haag',
+  UTRECHT = 'Gemeente Utrecht',
+  NLDS = 'NL Design System',
+}
+
+export enum COMPONENT_STATES {
+  TODO = 'Help Wanted',
+  COMMUNITY = 'Community',
+  NL_UNSTABLE = 'Candidate',
+  NL_STABLE = 'Hall of fame',
+}
+
+export enum DOCUMENTATION_TYPES {
+  UX = 'UX',
+  A11Y = 'A11y',
+  COPY = 'Content richtlijnen',
+}
+
+export const componentIndex: DesignSystemComponent[] = [
   {
     id: 'accordion',
     name: 'Accordion',

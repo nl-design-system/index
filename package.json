@@ -31,9 +31,14 @@
     "npm-check-updates": "12.5.8",
     "npm-package-json-lint": "6.3.0",
     "npm-run-all": "4.1.5",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "rimraf": "3.0.2",
+    "typescript": "4.7.4"
   },
   "scripts": {
+    "prebuild": "npm run clean",
+    "build": "lerna run --stream build",
+    "clean": "lerna run clean && rimraf dist/",
     "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
     "lint:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --report-unused-disable-directives .",
     "lint:md": "markdownlint '**/*.md'",
