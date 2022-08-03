@@ -1,4 +1,4 @@
-declare interface DesignSystemComponent {
+export interface DesignSystemComponent {
   id: string;
   name: string;
   aliases?: string[];
@@ -9,13 +9,13 @@ declare interface DesignSystemComponent {
   state: COMPONENT_STATES;
 }
 
-declare interface CommunityDocumentation {
+export interface CommunityDocumentation {
   type: DOCUMENTATION_TYPES;
   organisation: ORGANISATIONS;
   href: string;
 }
 
-declare interface ComponentImplementation {
+export interface ComponentImplementation {
   organisation: ORGANISATIONS;
   type: COMPONENT_TYPES;
   implementation: string;
