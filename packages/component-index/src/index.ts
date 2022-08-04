@@ -1489,5 +1489,3 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/140',
   },
 ];
-
-export default componentIndex;
