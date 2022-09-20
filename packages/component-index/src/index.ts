@@ -21,6 +21,8 @@ export interface ComponentImplementation {
   implementation: string;
   package?: string;
   story?: string;
+  storyTemplate?: string;
+  designTokenPrefixes?: string[];
 }
 
 export enum COMPONENT_TYPES {
@@ -118,6 +120,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textbox/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-textbox--default-story',
+        storyTemplate: '@utrecht/components/textbox/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.textbox'],
       },
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -168,6 +173,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/blob/main/components/badge-status/css/index.scss',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-status-badge--default-story',
+        storyTemplate: '@utrecht/components/badge-status/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.badge-status', 'utrecht.feedback', 'utrecht.badge'],
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -203,6 +211,7 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/badge-counter/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-counter-badge--default-story',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -298,6 +307,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/form-toggle/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-toggle--default-story',
+        storyTemplate: '@utrecht/components/form-toggle/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.form-toggle'],
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -339,6 +351,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/select',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-select--default-story',
+        storyTemplate: '@utrecht/components/select/css/story-template.jsx',
+        designTokenPrefixes: ['utrecht.select', 'utrecht.form-input'],
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -431,6 +446,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/button/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-button--button',
+        storyTemplate: '@utrecht/components/button/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.button'],
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -505,7 +523,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/39',
   },
   {
-    id: 'text-area',
+    id: 'textarea',
     name: 'Textarea',
     aliases: [],
     state: COMPONENT_STATES.COMMUNITY,
@@ -522,6 +540,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textarea/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-textarea--default-story',
+        storyTemplate: '@utrecht/components/textarea/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -662,7 +682,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/53',
   },
   {
-    id: 'breadcrumb-navigation',
+    id: 'breadcrumb',
     name: 'Breadcrumb navigation',
     aliases: ['breadcrumb-bar'],
     state: COMPONENT_STATES.COMMUNITY,
@@ -685,6 +705,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/breadcrumb/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-breadcrumb--default-story',
+        storyTemplate: '@utrecht/components/breadcrumb/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -778,7 +800,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/61',
   },
   {
-    id: 'checkbox',
+    id: 'custom-checkbox',
     name: 'Checkbox',
     aliases: [],
     state: COMPONENT_STATES.COMMUNITY,
@@ -789,6 +811,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/custom-checkbox/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-custom-checkbox--default-story',
+        storyTemplate: '@utrecht/components/custom-checkbox/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -841,8 +865,12 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/radio-button/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-radio-button--default-story',
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/custom-radio-button/css',
+        story:
+          'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-custom-radio-button--default-story',
+        storyTemplate: '@utrecht/components/custom-radio-button/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.custom-radio-button'],
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -943,6 +971,9 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/blockquote/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-blockquote--default-story',
+        storyTemplate: '@utrecht/components/blockquote/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.blockquote'],
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -1093,9 +1124,31 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/106',
   },
   {
-    id: 'headings',
-    name: 'Headings',
-    aliases: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+    id: 'variable-heading',
+    name: 'Variable Heading',
+    aliases: [],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/web-component',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-heading--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-1',
+    name: 'Heading 1',
+    aliases: ['h1'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
@@ -1104,12 +1157,128 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-1--default-story',
+        storyTemplate: '@utrecht/components/heading-1/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-2',
+    name: 'Heading 2',
+    aliases: ['h2'],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
       {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/web-component',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-heading--default-story',
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-2--default-story',
+        storyTemplate: '@utrecht/components/heading-2/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-3',
+    name: 'Heading 3',
+    aliases: ['h3'],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-3--default-story',
+        storyTemplate: '@utrecht/components/heading-3/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-4',
+    name: 'Heading 4',
+    aliases: ['h4'],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-4--default-story',
+        storyTemplate: '@utrecht/components/heading-4/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-5',
+    name: 'Heading 5',
+    aliases: ['h5'],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-5--default-story',
+        storyTemplate: '@utrecht/components/heading-5/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+      },
+    ],
+    preview: '/img/componenten/headings.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+  },
+  {
+    id: 'heading-6',
+    name: 'Heading 6',
+    aliases: ['h6'],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-6--default-story',
+        storyTemplate: '@utrecht/components/heading-6/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -1132,6 +1301,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/paragraph/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-paragraph--default-story',
+        storyTemplate: '@utrecht/components/paragraph/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -1167,6 +1338,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/unordered-list/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-unordered-list--default-story',
+        storyTemplate: '@utrecht/components/unordered-list/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -1190,6 +1363,8 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/ordered-list/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-ordered-list--default-story',
+        storyTemplate: '@utrecht/components/ordered-list/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -1341,9 +1516,19 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'fieldset',
     name: 'Fieldset',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/form-fieldset/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-fieldset--default-story',
+        storyTemplate: '@utrecht/components/form-fieldset/css/story-template.jsx',
+        package: '@utrecht/component-library-css',
+        designTokenPrefixes: ['utrecht.form-fieldset'],
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/124',
   },
