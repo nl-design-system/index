@@ -1,0 +1,577 @@
+{
+  "breadcrumb": {
+    "id": "breadcrumb",
+    "name": "Breadcrumb",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/breadcrumb/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-breadcrumb--default-story",
+        "storyTemplate": "@utrecht/components/breadcrumb/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/breadcrumb/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-breadcrumb--default-story"
+      }
+    ]
+  },
+  "button": {
+    "id": "button",
+    "name": "Button",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [
+      {
+        "type": "UX",
+        "href": "https://github.com/nl-design-system/utrecht/blob/main/components/button/docs/ux-guidelines.md"
+      },
+      {
+        "type": "A11Y",
+        "href": "https://github.com/nl-design-system/utrecht/blob/main/components/button/docs/accessibility.md"
+      }
+    ],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/button/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-button--button",
+        "storyTemplate": "@utrecht/components/button/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/button/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-button--button"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/button/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-button--button"
+      }
+    ]
+  },
+  "checkbox": {
+    "id": "checkbox",
+    "name": "Custom checkbox",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/custom-checkbox/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-custom-checkbox--default-story",
+        "storyTemplate": "@utrecht/components/custom-checkbox/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/checkbox/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-checkbox--default-story"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/custom-checkbox/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-custom-checkbox--default-story"
+      }
+    ]
+  },
+  "counter-badge": {
+    "documentation": [],
+    "id": "counter-badge",
+    "implementations": [
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/badge-counter/css",
+        "package": "@utrecht/component-library-css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-counter-badge--default-story",
+        "storyTemplate": "@utrecht/components/badge-counter/css/story-template.jsx",
+        "type": "CSS"
+      },
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/badge-counter/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-counter-badge--default-story",
+        "type": "WEB_COMPONENT"
+      }
+    ],
+    "name": "Counter Badge",
+    "state": "WORK_IN_PROGRESS"
+  },
+  "dropdown-listbox": {
+    "documentation": [],
+    "id": "dropdown-listbox",
+    "implementations": [
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/select",
+        "package": "@utrecht/component-library-css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-select--default-story",
+        "storyTemplate": "@utrecht/components/select/css/story-template.jsx",
+        "type": "CSS"
+      }
+    ],
+    "name": "Select",
+    "state": "WORK_IN_PROGRESS"
+  },
+  "favicon": {
+    "id": "favicon",
+    "name": "Favicon",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/favicon/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-favicon--favicon"
+      }
+    ]
+  },
+  "fieldset": {
+    "id": "fieldset",
+    "name": "Fieldset",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/form-fieldset/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-fieldset--default-story",
+        "storyTemplate": "@utrecht/components/form-fieldset/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      }
+    ]
+  },
+  "heading-1": {
+    "id": "heading-1",
+    "name": "Heading 1",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-1/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-1--default-story"
+      }
+    ]
+  },
+  "heading-2": {
+    "id": "heading-2",
+    "name": "Heading 2",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-2/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-2--default-story"
+      }
+    ]
+  },
+  "heading-3": {
+    "id": "heading-3",
+    "name": "Heading 3",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-3/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-3--default-story"
+      }
+    ]
+  },
+  "heading-4": {
+    "id": "heading-4",
+    "name": "Heading 4",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-4/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-4--default-story"
+      }
+    ]
+  },
+  "heading-5": {
+    "id": "heading-5",
+    "name": "Heading 5",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-5/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-5--default-story"
+      }
+    ]
+  },
+  "heading-6": {
+    "id": "heading-6",
+    "name": "Heading 6",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading-6/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-heading-6--default-story"
+      }
+    ]
+  },
+  "heading": {
+    "id": "heading",
+    "name": "Heading",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/heading/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-heading--default-story"
+      }
+    ]
+  },
+  "label": {
+    "id": "label",
+    "name": "Form Label",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/form-label/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-label--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/form-label/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-form-label--default-story"
+      }
+    ]
+  },
+  "language-switcher": {
+    "id": "language-switcher",
+    "name": "Alternate Language Nav",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/alternate-lang-nav/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-alternate-lang-nav--alternative-languages-navigation"
+      }
+    ]
+  },
+  "link": {
+    "id": "link",
+    "name": "Link",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/link/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-link--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/link/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-link--default-story"
+      }
+    ]
+  },
+  "main-navigation": {
+    "id": "main-navigation",
+    "name": "Topnav",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/navigatie%20topnav/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-topnav--default-story"
+      }
+    ]
+  },
+  "ordered-list": {
+    "id": "ordered-list",
+    "name": "Ordered list",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/ordered-list/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-ordered-list--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/ordered-list/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-ordered-list--default-story"
+      }
+    ]
+  },
+  "page-header": {
+    "id": "page-header",
+    "name": "Page header",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/page-header/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-page-header--default-story"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/page-header/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-page-header--default-story"
+      }
+    ]
+  },
+  "paragraph": {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/paragraph/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-paragraph--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/paragraph/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-paragraph--default-story"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/paragraph/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-paragraph--default-story"
+      }
+    ]
+  },
+  "quote": {
+    "id": "quote",
+    "name": "Blockquote",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/blockquote/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-blockquote--default-story",
+        "storyTemplate": "@utrecht/components/blockquote/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/blockquote/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-blockquote--default-story"
+      }
+    ]
+  },
+  "radio-button": {
+    "id": "radio-button",
+    "name": "Radio button",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/radio-button/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-radio-button--default-story",
+        "storyTemplate": "@utrecht/components/custom-radio-button/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/radio-button/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-radio-button--default-story"
+      }
+    ]
+  },
+  "separator": {
+    "id": "separator",
+    "name": "Divider",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [
+      {
+        "type": "UX",
+        "href": "https://github.com/nl-design-system/utrecht/tree/main/components/separator/README.md"
+      }
+    ],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/separator/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-separator--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/separator/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-separator--default-story"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/separator/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-separator--default-story"
+      }
+    ]
+  },
+  "status-badge": {
+    "documentation": [],
+    "id": "status-badge",
+    "implementations": [
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/blob/main/components/badge-status/css/index.scss",
+        "package": "@utrecht/component-library-css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-status-badge--default-story",
+        "storyTemplate": "@utrecht/components/badge-status/css/story-template.jsx",
+        "type": "CSS"
+      }
+    ],
+    "name": "Status Badge",
+    "state": "WORK_IN_PROGRESS"
+  },
+  "strong-emphasis": {
+    "id": "strong-emphasis",
+    "name": "Strong emphasis",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/emphasis/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-emphasis--strong"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/emphasis/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-emphasis--strong"
+      }
+    ]
+  },
+  "sub-navigation": {
+    "id": "sub-navigation",
+    "name": "Sidenav",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/navigatie%20sidenav/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-sidenav--default-story"
+      }
+    ]
+  },
+  "switch": {
+    "documentation": [],
+    "id": "switch",
+    "implementations": [
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/form-toggle/css",
+        "package": "@utrecht/component-library-css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-toggle--default-story",
+        "storyTemplate": "@utrecht/components/form-toggle/css/story-template.jsx",
+        "type": "CSS"
+      },
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/form-toggle/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-form-toggle--default-story",
+        "type": "WEB_COMPONENT"
+      }
+    ],
+    "name": "Form Toggle",
+    "state": "WORK_IN_PROGRESS"
+  },
+  "table": {
+    "id": "table",
+    "name": "Table",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/table/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-table--default-story"
+      },
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/table/css"
+      },
+      {
+        "type": "WEB_COMPONENT",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/table/web-component",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-table--default-story"
+      }
+    ]
+  },
+  "textarea": {
+    "id": "textarea",
+    "name": "Textarea",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/textarea/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-textarea--default-story",
+        "storyTemplate": "@utrecht/components/textarea/css/story-template.jsx",
+        "package": "@utrecht/component-library-css"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/textarea/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-textarea--default-story"
+      }
+    ]
+  },
+  "text-input": {
+    "documentation": [
+      {
+        "href": "https://github.com/nl-design-system/utrecht/tree/main/components/textbox/README.md",
+        "type": "UX"
+      }
+    ],
+    "id": "text-input",
+    "implementations": [
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/textbox/css",
+        "package": "@utrecht/component-library-css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-textbox--default-story",
+        "storyTemplate": "@utrecht/components/textbox/css/story-template.jsx",
+        "type": "CSS"
+      },
+      {
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/textbox/html",
+        "package": "@utrecht/component-library-css/dist/html.css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-textbox--default-story",
+        "storyTemplate": "@utrecht/components/textbox/html/story-template.jsx",
+        "type": "HTML"
+      }
+    ],
+    "name": "Textbox",
+    "state": "WORK_IN_PROGRESS"
+  },
+  "unordered-list": {
+    "id": "unordered-list",
+    "name": "Unordered list",
+    "state": "WORK_IN_PROGRESS",
+    "documentation": [],
+    "implementations": [
+      {
+        "type": "CSS",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/unordered-list/css",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-unordered-list--default-story"
+      },
+      {
+        "type": "HTML",
+        "implementation": "https://github.com/nl-design-system/utrecht/tree/main/components/unordered-list/html",
+        "story": "https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-unordered-list--default-story"
+      }
+    ]
+  }
+}

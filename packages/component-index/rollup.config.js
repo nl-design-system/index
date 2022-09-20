@@ -1,3 +1,4 @@
+import json from '@rollup/plugin-json';
 import typescript from '@rollup/plugin-typescript';
 import filesize from 'rollup-plugin-filesize';
 import packageJson from './package.json';
@@ -18,5 +19,5 @@ export default {
       format: 'esm',
     },
   ],
-  plugins: [typescript(), filesize()],
+  plugins: [typescript(), filesize(), json()],
 };
