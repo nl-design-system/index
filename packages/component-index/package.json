@@ -27,7 +27,7 @@
     "lint": "tsc --project ./tsconfig.json --noEmit"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "8.3.4",
+    "@rollup/plugin-typescript": "10.0.1",
     "rimraf": "3.0.2",
     "rollup": "2.77.2",
     "rollup-plugin-filesize": "9.1.2",
