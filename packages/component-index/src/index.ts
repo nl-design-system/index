@@ -87,7 +87,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2713%3A5947',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/accordion.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/accordion.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/102',
   },
   {
@@ -158,7 +158,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=0%3A1',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/text-input.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/text-input.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/5',
   },
   {
@@ -183,7 +183,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A200',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/status-badge.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/status-badge.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/6',
   },
   {
@@ -226,7 +226,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/NLDS-Components?node-id=264%3A84',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/counter-badge.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/counter-badge.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/7',
   },
   {
@@ -242,7 +242,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A183',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/backlink.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/backlink.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/8',
   },
   {
@@ -270,7 +270,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A8',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/notification.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/notification.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/9',
   },
   {
@@ -286,7 +286,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A169',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/collapse.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/collapse.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/10',
   },
   {
@@ -330,7 +330,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=263%3A2',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/toggle.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/toggle.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/33',
   },
   {
@@ -366,7 +366,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Select/src/index.tsx',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/select.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/select.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/34',
   },
   {
@@ -420,7 +420,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=282%3A105',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/card.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/card.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/37',
   },
   {
@@ -480,7 +480,7 @@ export const componentIndex: DesignSystemComponent[] = [
           'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1%3A656',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/button.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/button.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/38',
   },
   {
@@ -519,7 +519,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2480%3A3647',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/table.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/table.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/39',
   },
   {
@@ -567,7 +567,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=264%3A208',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/textarea.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/textarea.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/40',
   },
   {
@@ -584,7 +584,7 @@ export const componentIndex: DesignSystemComponent[] = [
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-input-form-progress--default-story',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/process-steps.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/process-steps.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/41',
   },
   {
@@ -600,7 +600,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=282%3A99',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/progress.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/progress.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/42',
   },
   {
@@ -644,7 +644,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=1140%3A211',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/tabs.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/tabs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
   },
   {
@@ -721,7 +721,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=288%3A0',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/breadcrumbs.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/breadcrumbs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/54',
   },
   {
@@ -846,7 +846,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A209',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/checkbox.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/checkbox.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/64',
   },
   {
@@ -896,7 +896,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A244',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/radio-button.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/radio-button.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/65',
   },
   {
@@ -1142,7 +1142,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1166,7 +1166,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1190,7 +1190,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1214,7 +1214,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1238,7 +1238,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1262,7 +1262,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1286,7 +1286,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/headings.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
   },
   {
@@ -1323,7 +1323,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2374%3A2086',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/paragraph.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/paragraph.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/115',
   },
   {
@@ -1413,7 +1413,7 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2500%3A3787',
       },
     ],
-    preview: 'https://github.com/nl-design-system/documentatie/blob/assets/componenten/text-link.svg',
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten/text-link.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/118',
   },
   {
