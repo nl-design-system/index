@@ -1341,16 +1341,6 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
   {
-    id: 'geographic-map',
-    name: 'Geographic map',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/136',
-  },
-  {
     id: 'foreign-language-content',
     name: 'Foreign language content',
     aliases: [],
