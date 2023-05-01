@@ -1340,15 +1340,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/133',
   },
   {
-    id: 'web-page-title',
-    name: 'Web page title',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/135',
-  },
   {
     id: 'geographic-map',
     name: 'Geographic map',
