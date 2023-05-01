@@ -1290,8 +1290,8 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/124',
   },
   {
-    id: 'numeric-form-input',
-    name: 'Numeric form input',
+    id: 'number-input',
+    name: 'Number input',
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
