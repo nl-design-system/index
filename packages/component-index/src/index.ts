@@ -739,9 +739,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/66',
   },
   {
-    id: 'video-player',
-    name: 'Video player',
-    aliases: [],
+    id: 'video',
+    name: 'Video',
+    aliases: ['media-player'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
