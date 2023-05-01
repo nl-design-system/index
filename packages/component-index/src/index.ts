@@ -759,9 +759,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/70',
   },
   {
-    id: 'file-upload',
-    name: 'File upload',
-    aliases: [],
+    id: 'file-input',
+    name: 'File input',
+    aliases: ['file-upload'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [
