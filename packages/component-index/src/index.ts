@@ -360,10 +360,9 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/35',
   },
-  {
-    id: 'slider',
-    name: 'Slider',
-    aliases: ['range-input'],
+    id: 'range',
+    name: 'Range',
+    aliases: ['slider'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
