@@ -556,10 +556,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
   },
   {
-  {
-    id: 'sub-navigation',
-    name: 'Sub navigation',
-    aliases: ['side-nav'],
+    id: 'side-navigation',
+    name: 'Side navigation',
+    aliases: ['sidebar'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
