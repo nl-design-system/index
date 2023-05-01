@@ -776,9 +776,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/72',
   },
   {
-    id: 'quote',
-    name: 'Quote',
-    aliases: ['blockquote'],
+    id: 'blockquote',
+    name: 'Blockquote',
+    aliases: ['quote', 'pull-quote'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
