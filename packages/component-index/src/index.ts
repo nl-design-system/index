@@ -616,29 +616,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/54',
   },
   {
-    id: 'page-header',
-    name: 'Page header',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/page-header/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-page-header--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.WEB_COMPONENT,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/page-header/web-component',
-        story:
-          'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-page-header--default-story',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/55',
-  },
   {
     id: 'page-footer',
     name: 'Page footer',
