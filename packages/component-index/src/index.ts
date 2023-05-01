@@ -617,30 +617,6 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
   {
-    id: 'page-footer',
-    name: 'Page footer',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/page-footer/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-page-footer--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.WEB_COMPONENT,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/page-footer/web-component',
-        story:
-          'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-page-footer--default-story',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/56',
-  },
-  {
     id: 'list',
     name: 'List',
     aliases: [],
