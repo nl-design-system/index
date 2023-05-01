@@ -616,8 +616,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/54',
   },
   {
-  {
-    id: 'custom-checkbox',
+    id: 'checkbox',
     name: 'Checkbox',
     aliases: [],
     state: COMPONENT_STATES.COMMUNITY,
