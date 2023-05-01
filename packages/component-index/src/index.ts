@@ -42,6 +42,7 @@ export enum ORGANISATIONS {
 }
 
 export enum COMPONENT_STATES {
+  DISCOURAGED = 'Discouraged',
   TODO = 'Help Wanted',
   COMMUNITY = 'Community',
   NL_UNSTABLE = 'Candidate',
