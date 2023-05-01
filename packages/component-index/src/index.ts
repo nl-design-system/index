@@ -1330,16 +1330,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
   {
-    id: 'character-limit-counter',
-    name: 'Character limit counter',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/130',
-  },
-  {
     id: 'confirm-checkbox',
     name: 'Confirm checkbox',
     aliases: [],
