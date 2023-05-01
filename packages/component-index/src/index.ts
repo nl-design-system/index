@@ -865,10 +865,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/98',
   },
   {
-  {
-    id: 'link-card',
-    name: 'Link card',
-    aliases: [],
+    id: 'card-as-link',
+    name: 'Card as link',
+    aliases: ['link-card'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
