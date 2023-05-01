@@ -617,23 +617,6 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
   {
-    id: 'favicon',
-    name: 'Favicon',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.HTML,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/favicon/html',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-favicon--favicon',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/61',
-  },
-  {
     id: 'custom-checkbox',
     name: 'Checkbox',
     aliases: [],
