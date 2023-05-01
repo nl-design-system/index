@@ -349,28 +349,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/36',
   },
   {
-    id: 'card',
-    name: 'Card',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Card/src/Card/Card.tsx',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/react-cards-card--default',
-      },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=282%3A105',
-      },
-    ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_card.svg',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/37',
-  },
-  {
     id: 'button',
     name: 'Button',
     aliases: ['button-primary', 'button-secondary'],
