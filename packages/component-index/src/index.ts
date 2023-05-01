@@ -832,21 +832,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/83',
   },
   {
-    id: 'definition-list',
-    name: 'Definition list',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=282%3A108',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/92',
-  },
   {
     id: 'text-badge',
     name: 'Text badge',
