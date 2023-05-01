@@ -1341,16 +1341,6 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
   {
-    id: 'foreign-language-content',
-    name: 'Foreign language content',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/137',
-  },
-  {
     id: 'strong-emphasis',
     name: 'Strong emphasis',
     aliases: [],
