@@ -832,10 +832,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/83',
   },
   {
-  {
-    id: 'text-badge',
-    name: 'Text badge',
-    aliases: [],
+    id: 'data-badge',
+    name: 'Data badge',
+    aliases: ['text-badge', 'tag', 'chip'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
