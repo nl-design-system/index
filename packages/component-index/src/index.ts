@@ -617,16 +617,6 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
   {
-    id: 'list',
-    name: 'List',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/58',
-  },
-  {
     id: 'favicon',
     name: 'Favicon',
     aliases: [],
