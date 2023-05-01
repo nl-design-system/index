@@ -1320,9 +1320,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/128',
   },
   {
-    id: 'radio-button-group',
-    name: 'Radio button group',
-    aliases: [],
+    id: 'radio-group',
+    name: 'Radio group',
+    aliases: ['radio-button-group'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
