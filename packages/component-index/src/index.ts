@@ -1340,10 +1340,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/133',
   },
   {
-  {
-    id: 'strong-emphasis',
-    name: 'Strong emphasis',
-    aliases: [],
+    id: 'strong',
+    name: 'Strong',
+    aliases: ['strong-emphasis'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
