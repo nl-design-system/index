@@ -231,25 +231,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/7',
   },
   {
-    id: 'backlink',
-    name: 'Backlink',
+    id: 'alert',
+    name: 'Alert',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A183',
-      },
-    ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_backlink.svg',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/8',
-  },
-  {
-    id: 'notification',
-    name: 'Notification',
-    aliases: ['alert'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [
       {
