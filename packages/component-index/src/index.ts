@@ -1330,16 +1330,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
   {
-    id: 'confirm-checkbox',
-    name: 'Confirm checkbox',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/131',
-  },
-  {
     id: 'password-input',
     name: 'Password input',
     aliases: [],
