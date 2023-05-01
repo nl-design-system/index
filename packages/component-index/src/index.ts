@@ -496,9 +496,8 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/40',
   },
   {
-  {
-    id: 'progress-tracker',
-    name: 'Progress tracker',
+    id: 'progress',
+    name: 'Progress',
     aliases: ['progress-bar', 'progress-indicator'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
