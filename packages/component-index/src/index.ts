@@ -259,22 +259,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/9',
   },
   {
-    id: 'expandable-region',
-    name: 'Expandable region',
-    aliases: ['collapse'],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A169',
-      },
-    ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_collapse.svg',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/10',
-  },
-  {
     id: 'switch',
     name: 'Switch',
     aliases: ['toggle', 'toggle-button', 'form-toggle'],
