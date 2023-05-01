@@ -339,27 +339,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/34',
   },
   {
-    id: 'date-picker',
-    name: 'Date picker',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: DOCUMENTATION_TYPES.UX,
-        href: 'https://github.com/nl-design-system/denhaag/blob/main/components/Datepicker/README.md',
-      },
-    ],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Datepicker/src/index.tsx',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/35',
-  },
     id: 'range',
     name: 'Range',
     aliases: ['slider'],
