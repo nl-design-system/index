@@ -842,9 +842,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/94',
   },
   {
-    id: 'dot-indicator',
-    name: 'Dot indicator',
-    aliases: [],
+    id: 'dot-badge',
+    name: 'Dot badge',
+    aliases: ['dot-indicator'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [
