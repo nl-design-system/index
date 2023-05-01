@@ -1270,16 +1270,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/122',
   },
   {
-    id: 'captcha',
-    name: 'CAPTCHA',
-    aliases: [],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/123',
-  },
-  {
     id: 'fieldset',
     name: 'Fieldset',
     aliases: [],
