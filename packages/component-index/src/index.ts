@@ -1362,22 +1362,4 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/138',
   },
-  {
-    id: 'language-switcher',
-    name: 'Language switcher',
-    aliases: ['alternate-lang-nav'],
-    state: COMPONENT_STATES.TODO,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/alternate-lang-nav/css',
-        story:
-          'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-alternate-lang-nav--alternative-languages-navigation',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/140',
-  },
 ];
