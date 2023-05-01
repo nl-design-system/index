@@ -303,9 +303,9 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/33',
   },
   {
-    id: 'dropdown-listbox',
-    name: 'Dropdown listbox',
-    aliases: ['select'],
+    id: 'select',
+    name: 'Select',
+    aliases: ['dropdown-listbox', 'dropdown'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [
       {
