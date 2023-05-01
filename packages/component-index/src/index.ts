@@ -515,7 +515,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'tooltip',
     name: 'Tooltip',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.DISCOURAGED,
     communityDocs: [],
     implementations: [],
     preview: '',
