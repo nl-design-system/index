@@ -496,22 +496,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/40',
   },
   {
-    id: 'step-indicator',
-    name: 'Step indicator',
-    aliases: ['form-progress'],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/FormProgress',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-input-form-progress--default-story',
-      },
-    ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_process-steps.svg',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/41',
-  },
   {
     id: 'progress-tracker',
     name: 'Progress tracker',
