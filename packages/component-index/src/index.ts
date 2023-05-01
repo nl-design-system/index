@@ -94,7 +94,7 @@ export const componentIndex: DesignSystemComponent[] = [
   {
     id: 'text-input',
     name: 'Text input',
-    aliases: ['text-field'],
+    aliases: ['text-field', 'textbox'],
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [
       {
