@@ -1470,28 +1470,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/119',
   },
   {
-    id: 'label',
-    name: 'Label',
-    aliases: ['form-label'],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/form-label/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-form-label--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.HTML,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/form-label/html',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-form-label--default-story',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/121',
-  },
   {
     id: 'form-error',
     name: 'Form error',
