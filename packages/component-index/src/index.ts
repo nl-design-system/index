@@ -556,22 +556,6 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
   },
   {
-    id: 'main-navigation',
-    name: 'Main navigation',
-    aliases: ['top-nav'],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/navigatie%20topnav/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-topnav--default-story',
-      },
-    ],
-    preview: '',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/52',
-  },
   {
     id: 'sub-navigation',
     name: 'Sub navigation',
