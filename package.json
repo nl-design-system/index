@@ -9,8 +9,8 @@
   ],
   "private": true,
   "engines": {
-    "node": "^16.13.0",
-    "npm": "^8"
+    "node": "^18",
+    "npm": ">=8"
   },
   "workspaces": [
     "./packages/*"
