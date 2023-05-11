@@ -19,4 +19,3 @@ updates:
       # We don't yet use Node 17 so the types of node should also be locked at 16.
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
-      

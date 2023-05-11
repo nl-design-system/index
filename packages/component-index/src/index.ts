@@ -85,7 +85,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1261-4784',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1261-4784',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_accordion.svg',
@@ -156,7 +157,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=0%3A1',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=859-981',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_text-input.svg',
@@ -181,7 +183,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/Components?node-id=102%3A200',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1354-6672',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_status-badge.svg',
@@ -224,7 +227,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/NLDS-Components?node-id=264%3A84',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1233-4271',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_counter-badge.svg',
@@ -252,7 +256,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A8',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1179-3892',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_notification.svg',
@@ -293,11 +298,6 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Switch/src/index.tsx',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-switch--default',
       },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=263%3A2',
-      },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_toggle.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/33',
@@ -327,7 +327,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=264%3A102',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1130-3652',
       },
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -396,7 +397,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=151%3A92',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1138',
       },
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -441,7 +443,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2480%3A3647',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1561-6277',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_table.svg',
@@ -489,7 +492,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=264%3A208',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=969-2047',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_textarea.svg',
@@ -501,13 +505,7 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: ['progress-bar', 'progress-indicator'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=282%3A99',
-      },
-    ],
+    implementations: [],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_progress.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/42',
   },
@@ -546,11 +544,6 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation:
           'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=5020%3A18454',
       },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=1140%3A211',
-      },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_tabs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
@@ -567,6 +560,12 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/navigatie%20sidenav/css',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-sidenav--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1670-10258',
       },
     ],
     preview: '',
@@ -609,7 +608,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=288%3A0',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1862-9575',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_breadcrumbs.svg',
@@ -659,7 +659,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A209',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=944-1535',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_checkbox.svg',
@@ -709,7 +710,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=102%3A244',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1039-2941',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_radio-button.svg',
@@ -797,6 +799,12 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/blockquote/html',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-blockquote--default-story',
       },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1349-6340',
+      },
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/73',
@@ -855,11 +863,6 @@ export const componentIndex: DesignSystemComponent[] = [
         story:
           'https://nl-design-system.github.io/denhaag/?path=/story/react-data-display-dot-indicator--indicator-on-rectangle',
       },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=318%3A138',
-      },
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/98',
@@ -907,7 +910,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=403%3A100',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1691-11779',
       },
     ],
     preview: '',
@@ -925,11 +929,6 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/heading/web-component',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-heading--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -953,7 +952,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -977,7 +977,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -1001,7 +1002,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -1025,7 +1027,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -1049,7 +1052,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -1073,7 +1077,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2365%3A2035',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1039',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
@@ -1110,7 +1115,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2374%3A2086',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=150-734',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_paragraph.svg',
@@ -1137,6 +1143,12 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/unordered-list/html',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-unordered-list--default-story',
       },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=828-920',
+      },
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/116',
@@ -1161,6 +1173,12 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.HTML,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/ordered-list/html',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-ordered-list--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=823-571',
       },
     ],
     preview: '',
@@ -1200,7 +1218,8 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2500%3A3787',
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1056',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_text-link.svg',
@@ -1254,6 +1273,12 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/separator/web-component',
         story:
           'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-separator--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=843-1098',
       },
     ],
     preview: '',
