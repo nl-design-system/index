@@ -85,7 +85,7 @@ export const componentIndex: DesignSystemComponent[] = [
       {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/gqQhMe3gj4YlC6JrZOWiCv/?node-id=2713%3A5947',
+        implementation: 'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1261-4784',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_accordion.svg',
