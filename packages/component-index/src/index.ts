@@ -57,42 +57,6 @@ export enum DOCUMENTATION_TYPES {
 
 export const componentIndex: DesignSystemComponent[] = [
   {
-    id: 'accordion',
-    name: 'Accordion',
-    aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
-    communityDocs: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: DOCUMENTATION_TYPES.UX,
-        href: 'https://github.com/nl-design-system/denhaag/blob/main/components/Accordion/README.md',
-      },
-    ],
-    implementations: [
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.CSS,
-        package: '@gemeente-denhaag/accordion',
-        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Accordion/src/index.scss',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/css-surfaces-accordion--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation:
-          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1585%3A0',
-      },
-      {
-        organisation: ORGANISATIONS.NLDS,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation:
-          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1261-4784',
-      },
-    ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_accordion.svg',
-    backlog: 'https://github.com/nl-design-system/backlog/issues/102',
-  },
-  {
     id: 'text-input',
     name: 'Text input',
     aliases: ['text-field', 'textbox'],
@@ -263,6 +227,17 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_notification.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/9',
   },
+  // Needs rationale
+  // {
+  //   id: 'expandable-region',
+  //   name: 'Expandable Region',
+  //   aliases: [],
+  //   state: COMPONENT_STATES.COMMUNITY,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/10',
+  // },
   {
     id: 'switch',
     name: 'Switch',
@@ -338,6 +313,16 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_select.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/34',
+  },
+  {
+    id: 'date-picker',
+    name: 'Date Picker',
+    aliases: [],
+    state: COMPONENT_STATES.TODO,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/35',
   },
   {
     id: 'range',
@@ -499,6 +484,17 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_textarea.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/40',
   },
+  // Needs rationale and a clear name
+  // {
+  //   id: 'step-indicator',
+  //   name: 'Step Indicator',
+  //   aliases: ['form-progress'],
+  //   state: COMPONENT_STATES.TODO,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/41',
+  // },
   {
     id: 'progress',
     name: 'Progress',
@@ -548,6 +544,17 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_tabs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
   },
+  // Needs rationale and a decision if it is a best-practice or component for NL Design System
+  // {
+  //   id: 'main-navigation',
+  //   name: 'Main navigation',
+  //   aliases: [],
+  //   state: COMPONENT_STATES.TODO,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/52',
+  // },
   {
     id: 'side-navigation',
     name: 'Side navigation',
@@ -616,6 +623,26 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/54',
   },
   {
+    id: 'page-header',
+    name: 'Page Header',
+    aliases: [],
+    state: COMPONENT_STATES.TODO,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/55',
+  },
+  {
+    id: 'page-footer',
+    name: 'Page Footer',
+    aliases: [],
+    state: COMPONENT_STATES.TODO,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/56',
+  },
+  {
     id: 'checkbox',
     name: 'Checkbox',
     aliases: [],
@@ -667,7 +694,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/64',
   },
   {
-    id: 'radio-button',
+    id: 'radio',
     name: 'Radio button',
     aliases: [],
     state: COMPONENT_STATES.COMMUNITY,
@@ -846,6 +873,16 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/83',
   },
+  // {
+  //   id: 'description-list',
+  //   name: 'Description List',
+  //   aliases: [],
+  //   state: COMPONENT_STATES.TODO,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/92',
+  // },
   {
     id: 'data-badge',
     name: 'Data badge',
@@ -883,6 +920,42 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/101',
+  },
+  {
+    id: 'accordion',
+    name: 'Accordion',
+    aliases: [],
+    state: COMPONENT_STATES.COMMUNITY,
+    communityDocs: [
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: DOCUMENTATION_TYPES.UX,
+        href: 'https://github.com/nl-design-system/denhaag/blob/main/components/Accordion/README.md',
+      },
+    ],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.CSS,
+        package: '@gemeente-denhaag/accordion',
+        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Accordion/src/index.scss',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/css-surfaces-accordion--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1585%3A0',
+      },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1261-4784',
+      },
+    ],
+    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_accordion.svg',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/102',
   },
   {
     id: 'pagination',
@@ -1368,6 +1441,28 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
+  // Needs rationale
+  // {
+  //   id: 'character-limit-counter',
+  //   name: 'Character Limit Counter',
+  //   aliases: [],
+  //   state: COMPONENT_STATES.TODO,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/130',
+  // },
+  // Needs rationale
+  // {
+  //   id: 'confirm-checkbox',
+  //   name: 'Confirm-checkbox',
+  //   aliases: [],
+  //   state: COMPONENT_STATES.TODO,
+  //   communityDocs: [],
+  //   implementations: [],
+  //   preview: '',
+  //   backlog: 'https://github.com/nl-design-system/backlog/issues/131',
+  // },
   {
     id: 'password-input',
     name: 'Password input',
