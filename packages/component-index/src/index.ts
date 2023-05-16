@@ -685,9 +685,9 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/custom-radio-button/css',
         story:
           'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-custom-radio-button--default-story',
-        storyTemplate: '@utrecht/components/custom-radio-button/css/story-template.jsx',
+        storyTemplate: '@utrecht/components/radio-button/css/story-template.jsx',
         package: '@utrecht/component-library-css',
-        designTokenPrefixes: ['utrecht.custom-radio-button'],
+        designTokenPrefixes: ['utrecht.radio-button'],
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
