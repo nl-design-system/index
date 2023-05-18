@@ -1648,7 +1648,7 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/188',
   },
 {
-    id: 'date-input-group,
+    id: 'date-input-group',
     name: 'Date input group',
     aliases: [],
     state: COMPONENT_STATES.TODO,
