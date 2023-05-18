@@ -1434,7 +1434,7 @@ export const componentIndex: DesignSystemComponent[] = [
 {
     id: 'toggletip',
     name: 'Toggletip',
-    aliases: [tooltip],
+    aliases: ['tooltip'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
     implementations: [],
