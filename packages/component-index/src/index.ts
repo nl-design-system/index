@@ -898,7 +898,13 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=2217-10125&t=cfmoSlMooZqlEGlh-4',
+      },],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/74',
   },
