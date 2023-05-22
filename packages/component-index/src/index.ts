@@ -76,10 +76,21 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.CSS,
+        package: '@gemeente-denhaag/textfield',
+        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/TextField/src/index.scss',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
         type: COMPONENT_TYPES.REACT,
         package: '@gemeente-denhaag/textfield',
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/TextField/src/index.tsx',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-textfield--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -91,17 +102,6 @@ export const componentIndex: DesignSystemComponent[] = [
         designTokenPrefixes: ['utrecht.textbox'],
       },
       {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.CSS,
-        package: '@gemeente-denhaag/textfield',
-        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/TextField/src/index.scss',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag',
-      },
-      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.HTML,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textbox/html',
@@ -109,14 +109,14 @@ export const componentIndex: DesignSystemComponent[] = [
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation: 'https://www.figma.com/file/msb3CfQBefPoruqNQ968Zh/Utrecht-Design-System?node-id=302%3A3975',
-      },
-      {
-        organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.WEB_COMPONENT,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textbox/web-component',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-textbox--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/msb3CfQBefPoruqNQ968Zh/Utrecht-Design-System?node-id=302%3A3975',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -143,6 +143,11 @@ export const componentIndex: DesignSystemComponent[] = [
         storyTemplate: '@utrecht/components/badge-status/css/story-template.jsx',
         package: '@utrecht/component-library-css',
         designTokenPrefixes: ['utrecht.badge-status', 'utrecht.feedback', 'utrecht.badge'],
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1043-184&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -173,6 +178,11 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/BadgeCounter/src/index.scss',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-data-display-badge-counter--default-story',
         package: '@gemeente-denhaag/badge-counter',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1540-4477&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -216,6 +226,11 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Alert/src/index.scss',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-data-display-alert--error',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1470-10&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -273,6 +288,11 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Switch/src/index.tsx',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-switch--default',
       },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation: 'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1681-7439&t=3HEfMj3TQbnTlFGi-4',
+      },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_toggle.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/33',
@@ -291,6 +311,11 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Select/src/index.tsx',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/select',
@@ -304,11 +329,6 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.FIGMA,
         implementation:
           'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1130-3652',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Select/src/index.tsx',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_select.svg',
@@ -353,6 +373,18 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Button',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/css-input-button--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1%3A656',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/button/css',
@@ -374,22 +406,10 @@ export const componentIndex: DesignSystemComponent[] = [
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-button--button',
       },
       {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Button',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/css-input-button--default-story',
-      },
-      {
         organisation: ORGANISATIONS.NLDS,
         type: COMPONENT_TYPES.FIGMA,
         implementation:
           'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=153-1138',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation:
-          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1%3A656',
       },
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_button.svg',
@@ -409,15 +429,21 @@ export const componentIndex: DesignSystemComponent[] = [
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-data-display-table--default-story',
       },
       {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.HTML,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/table/html',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-table--default-story',
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=5213-16235&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/table/css',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.HTML,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/table/html',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-table--default-story',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -449,6 +475,18 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/TextArea',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-text-area--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=7062%3A17687',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textarea/css',
@@ -461,18 +499,6 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.HTML,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/textarea/html',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-textarea--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/TextArea',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-text-area--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation:
-          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=7062%3A17687',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -563,6 +589,12 @@ export const componentIndex: DesignSystemComponent[] = [
     communityDocs: [],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1628-387&t=3HEfMj3TQbnTlFGi-4',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/navigatie%20sidenav/css',
@@ -596,6 +628,12 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Breadcrumb',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-navigation-breadcrumb--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1569-5671&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -650,6 +688,18 @@ export const componentIndex: DesignSystemComponent[] = [
     communityDocs: [],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Checkbox',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-checkbox--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1450%3A4570',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/custom-checkbox/css',
@@ -670,18 +720,6 @@ export const componentIndex: DesignSystemComponent[] = [
           'https://github.com/nl-design-system/utrecht/tree/main/components/custom-checkbox/web-component',
         story:
           'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/web-component-custom-checkbox--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Checkbox',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-checkbox--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.FIGMA,
-        implementation:
-          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Design-System---Gemeente-Den-Haag?node-id=1450%3A4570',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -707,6 +745,24 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Radio/src/index.tsx',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-radio-radio--default',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Radio/src/index.scss',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-input-radio--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1681-7054&t=3HEfMj3TQbnTlFGi-4',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/custom-radio-button/css',
@@ -721,18 +777,6 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.HTML,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/radio-button/html',
         story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-radio-button--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.REACT,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Radio/src/index.tsx',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-input-radio-radio--default',
-      },
-      {
-        organisation: ORGANISATIONS.DEN_HAAG,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Radio/src/index.scss',
-        story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-input-radio--default-story',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -762,6 +806,12 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Modal/src/index.scss',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-feedback-modal--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=221-32&t=3HEfMj3TQbnTlFGi-4',
       },
     ],
     preview: '',
@@ -812,6 +862,12 @@ export const componentIndex: DesignSystemComponent[] = [
     communityDocs: [],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=8123-22417&t=3HEfMj3TQbnTlFGi-4',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/blockquote/css',
@@ -842,7 +898,13 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=2217-10125&t=cfmoSlMooZqlEGlh-4',
+      },],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/74',
   },
@@ -1210,6 +1272,12 @@ export const componentIndex: DesignSystemComponent[] = [
     communityDocs: [],
     implementations: [
       {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=8105-22880&t=3HEfMj3TQbnTlFGi-4',
+      },
+      {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/unordered-list/css',
@@ -1240,6 +1308,12 @@ export const componentIndex: DesignSystemComponent[] = [
     state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=8105-22880&t=3HEfMj3TQbnTlFGi-4',
+      },
       {
         organisation: ORGANISATIONS.UTRECHT,
         type: COMPONENT_TYPES.CSS,
@@ -1272,18 +1346,6 @@ export const componentIndex: DesignSystemComponent[] = [
     communityDocs: [],
     implementations: [
       {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.CSS,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/link/css',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-link--default-story',
-      },
-      {
-        organisation: ORGANISATIONS.UTRECHT,
-        type: COMPONENT_TYPES.HTML,
-        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/link/html',
-        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-link--default-story',
-      },
-      {
         organisation: ORGANISATIONS.DEN_HAAG,
         type: COMPONENT_TYPES.CSS,
         implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Link/src/index.scss',
@@ -1294,6 +1356,18 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.REACT,
         implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Link/src/index.tsx',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-navigation-link--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/link/css',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/css-link--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.HTML,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/link/html',
+        story: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/html-link--default-story',
       },
       {
         organisation: ORGANISATIONS.NLDS,
@@ -1334,6 +1408,12 @@ export const componentIndex: DesignSystemComponent[] = [
         type: COMPONENT_TYPES.REACT,
         implementation: 'https://github.com/nl-design-system/denhaag/tree/main/components/Divider/src/index.tsx',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/react-data-display-divider--default-story',
+      },
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/JpoY3waVoQGlLQzQXTL9nn/Den-Haag-Design-System?type=design&node-id=1596-83&t=3HEfMj3TQbnTlFGi-4',
       },
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -1437,7 +1517,14 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: ['radio-button-group'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=954-1910',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
