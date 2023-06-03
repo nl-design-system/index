@@ -1496,7 +1496,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/138',
   },
-{
+  {
     id: 'progress-steps',
     name: 'Progress steps',
     aliases: [],
@@ -1506,7 +1506,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/150',
   },
-{
+  {
     id: 'button-group',
     name: 'Button group',
     aliases: [],
@@ -1516,7 +1516,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/153',
   },
-{
+  {
     id: 'notification-banner',
     name: 'Notification banner',
     aliases: [],
@@ -1526,7 +1526,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/169',
   },
-{
+  {
     id: 'toggletip',
     name: 'Toggletip',
     aliases: ['tooltip'],
@@ -1536,7 +1536,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/170',
   },
-{
+  {
     id: 'form-field-option-label',
     name: 'Form field option label',
     aliases: [],
@@ -1553,7 +1553,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/171',
   },
-{
+  {
     id: 'form-field-checkbox-option',
     name: 'Form field checkbox option',
     aliases: [],
@@ -1570,7 +1570,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/172',
   },
-{
+  {
     id: 'form-field-radio-option',
     name: 'Form field radio option',
     aliases: [],
@@ -1587,7 +1587,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/173',
   },
-{
+  {
     id: 'form-field-description',
     name: 'Form field description',
     aliases: [],
@@ -1604,9 +1604,9 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/174',
   },
-{
+  {
     id: 'invalid-form-alert',
-    name: 'Invlid form alert',
+    name: 'Invalid form alert',
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
@@ -1621,7 +1621,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/175',
   },
-{
+  {
     id: 'form-field',
     name: 'Form field',
     aliases: [],
@@ -1638,7 +1638,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/176',
   },
-{
+  {
     id: 'form-field-label',
     name: 'Form field label',
     aliases: [],
@@ -1655,7 +1655,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/177',
   },
-{
+  {
     id: 'text-input-group',
     name: 'Text input group',
     aliases: [],
@@ -1665,7 +1665,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/178',
   },
-{
+  {
     id: 'form-field-partial',
     name: 'Form field partial',
     aliases: [],
@@ -1675,7 +1675,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/179',
   },
-{
+  {
     id: 'form-field-partial-label',
     name: 'Form field partial label',
     aliases: [],
@@ -1685,7 +1685,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/180',
   },
-{
+  {
     id: 'non-modal-dialog',
     name: 'Non modal dialog',
     aliases: [],
@@ -1695,7 +1695,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/181',
   },
-{
+  {
     id: 'alert-dialog',
     name: 'Alert dialog',
     aliases: [],
@@ -1705,7 +1705,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/182',
   },
-{
+  {
     id: 'data-list',
     name: 'Data list',
     aliases: [],
@@ -1722,7 +1722,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/185',
   },
-{
+  {
     id: 'legend',
     name: 'Legend',
     aliases: [],
@@ -1732,7 +1732,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/186',
   },
-{
+  {
     id: 'date-input',
     name: 'Date input',
     aliases: [],
@@ -1742,7 +1742,7 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/188',
   },
-{
+  {
     id: 'date-input-group',
     name: 'Date input group',
     aliases: [],
