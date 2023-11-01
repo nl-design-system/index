@@ -316,7 +316,7 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
     id: 'date-picker',
-    name: 'Date Picker',
+    name: 'Date picker',
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
