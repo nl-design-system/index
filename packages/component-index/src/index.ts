@@ -763,6 +763,12 @@ export const componentIndex: DesignSystemComponent[] = [
         implementation: 'https://github.com/nl-design-system/denhaag/blob/main/components/Modal/src/index.scss',
         story: 'https://nl-design-system.github.io/denhaag/?path=/story/css-feedback-modal--default-story',
       },
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NLDS---Voorbeeld---Bibliotheek?type=design&node-id=5910-3096&',
+      },
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/66',
@@ -842,7 +848,14 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NLDS---Voorbeeld---Bibliotheek?type=design&node-id=2217-10122',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/74',
   },
@@ -1370,7 +1383,14 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NLDS---Voorbeeld---Bibliotheek?type=design&node-id=851-939',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/122',
   },
@@ -1437,7 +1457,14 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: ['radio-button-group'],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NLDS---Voorbeeld---Bibliotheek?type=design&node-id=954-1910',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
@@ -1512,7 +1539,14 @@ export const componentIndex: DesignSystemComponent[] = [
     aliases: [],
     state: COMPONENT_STATES.TODO,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.NLDS,
+        type: COMPONENT_TYPES.FIGMA,
+        implementation:
+          'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NLDS---Voorbeeld---Bibliotheek?type=design&node-id=4626-10492',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/153',
   },
