@@ -14,7 +14,7 @@ updates:
     versioning-strategy: "increase-if-necessary"
     open-pull-requests-limit: 20
     reviewers:
-      - "nl-design-system/sysadmin"
+      - "nl-design-system/dependabot"
     ignore:
       # We don't yet use Node 17 so the types of node should also be locked at 16.
       - dependency-name: "@types/node"
