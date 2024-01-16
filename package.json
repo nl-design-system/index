@@ -9,41 +9,40 @@
   ],
   "private": true,
   "engines": {
-    "node": "^18",
-    "npm": ">=8"
+    "node": "^20",
+    "pnpm": "^8"
   },
   "workspaces": [
     "./packages/*"
   ],
   "devDependencies": {
-    "@types/node": "18.16.12",
-    "@typescript-eslint/eslint-plugin": "5.59.6",
-    "@typescript-eslint/parser": "5.59.6",
-    "eslint": "8.40.0",
-    "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-import": "2.27.5",
+    "@types/node": "18.19.7",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "8.10.0",
+    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-json": "3.1.0",
-    "eslint-plugin-mdx": "2.1.0",
+    "eslint-plugin-mdx": "2.3.4",
     "husky": "8.0.3",
     "lerna": "6.6.2",
-    "lint-staged": "13.2.2",
-    "markdownlint-cli": "0.34.0",
-    "npm-check-updates": "16.10.12",
+    "lint-staged": "13.3.0",
+    "markdownlint-cli": "0.38.0",
+    "npm-check-updates": "16.14.12",
     "npm-package-json-lint": "6.4.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.8.8",
-    "rimraf": "5.0.1",
-    "typescript": "5.0.4"
+    "rimraf": "5.0.5",
+    "typescript": "5.3.3"
   },
   "scripts": {
-    "prebuild": "npm run clean",
+    "prebuild": "pnpm run clean",
     "build": "lerna run --stream build",
     "clean": "lerna run clean && rimraf dist/",
     "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
     "lint:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --report-unused-disable-directives .",
     "lint:md": "markdownlint '**/*.md'",
     "lint:package-json": "npmPkgJsonLint '**/package.json'",
-    "lint:package-lock": "npm ls",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --fix --report-unused-disable-directives .",
     "lint-fix:md": "markdownlint --fix '**/*.md'",
@@ -52,8 +51,8 @@
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package",
     "release": "lerna version prerelease --no-changelog --no-private",
-    "update-patch": "npm-check-updates --configFileName .ncurc.patch.js --deep --dep dev,prod --target patch --upgrade && npm install --legacy-peer-deps",
-    "update-minor": "npm-check-updates --configFileName .ncurc.minor.js --deep --dep dev,prod --target minor --upgrade && npm install --legacy-peer-deps",
-    "update-major": "npm-check-updates --configFileName .ncurc.major.js --deep --dep dev,prod --target latest --upgrade && npm install --legacy-peer-deps"
+    "update-patch": "npm-check-updates --configFileName .ncurc.patch.js --deep --dep dev,prod --target patch --upgrade && pnpm install",
+    "update-minor": "npm-check-updates --configFileName .ncurc.minor.js --deep --dep dev,prod --target minor --upgrade && pnpm install",
+    "update-major": "npm-check-updates --configFileName .ncurc.major.js --deep --dep dev,prod --target latest --upgrade && pnpm install"
   }
 }
