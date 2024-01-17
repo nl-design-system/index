@@ -2,7 +2,7 @@
 
 # NL Design System indexes
 
-This repository keeps indexes of the components, themes and guidelines in NL Design System. As these might be available in the community, in Gebruiker Centraal, in NL Design System or elsewhere it is useful to have one overview of what's available and use it to generate the documentation website or stories.
+This repository keeps indexes of the components, themes and guidelines in NL Design System. As these might be available in the community, in NL Design System or elsewhere it is useful to have one overview of what's available and use it to generate the documentation website or stories.
 
 ## Code of Conduct
 
