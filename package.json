@@ -16,6 +16,9 @@
     "./packages/*"
   ],
   "devDependencies": {
+    "@lerna-lite/cli": "3.2.1",
+    "@lerna-lite/publish": "3.2.1",
+    "@lerna-lite/version": "3.2.1",
     "@types/node": "18.19.7",
     "@typescript-eslint/eslint-plugin": "6.19.0",
     "@typescript-eslint/parser": "6.19.0",
@@ -25,7 +28,6 @@
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-mdx": "3.1.5",
     "husky": "8.0.3",
-    "lerna": "8.0.2",
     "lint-staged": "15.2.0",
     "markdownlint-cli": "0.38.0",
     "npm-check-updates": "16.14.12",
@@ -36,9 +38,8 @@
     "typescript": "5.3.3"
   },
   "scripts": {
-    "prebuild": "pnpm run clean",
-    "build": "lerna run --stream build",
-    "clean": "lerna run clean && rimraf dist/",
+    "build": "pnpm run --recursive --aggregate-output build",
+    "clean": "pnpm run --recursive --aggregate-output --parallel clean",
     "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
     "lint:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --report-unused-disable-directives .",
     "lint:md": "markdownlint '**/*.md'",
@@ -46,7 +47,7 @@
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx' --fix --report-unused-disable-directives .",
     "lint-fix:md": "markdownlint --fix '**/*.md'",
-    "lint-workspaces": "lerna run --no-bail lint",
+    "lint-workspaces": "pnpm run --recursive --aggregate-output --no-bail lint",
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package",
