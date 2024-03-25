@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Download code from GitHub
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.2
 
       - name: Install pnpm package manager
         uses: pnpm/action-setup@v3.0.0
@@ -51,7 +51,7 @@ jobs:
 
     steps:
       - name: Download code from GitHub
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.2
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
 
