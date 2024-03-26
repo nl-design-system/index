@@ -10,6 +10,12 @@
   },
   "overrides": [
     {
+      "files": ["*.mjs", "*.cjs"],
+      "parser": "@babel/eslint-parser",
+      "extends": ["eslint-config-prettier", "./.eslintrc.js.json"],
+      "plugins": ["import"]
+    },
+    {
       "extends": ["plugin:json/recommended"],
       "files": ["*.json"]
     },
