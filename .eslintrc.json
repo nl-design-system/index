@@ -10,6 +10,10 @@
   },
   "overrides": [
     {
+      "files": ["*.mjs"],
+      "parser": "@babel/eslint-parser"
+    },
+    {
       "extends": ["plugin:json/recommended"],
       "files": ["*.json"]
     },
