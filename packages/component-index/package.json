@@ -29,8 +29,8 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "11.1.6",
     "rimraf": "5.0.5",
-    "rollup": "4.13.0",
+    "rollup": "4.13.2",
     "rollup-plugin-filesize": "10.0.0",
-    "typescript": "5.4.2"
+    "typescript": "5.4.4"
   }
 }
