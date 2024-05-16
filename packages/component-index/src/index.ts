@@ -1869,4 +1869,15 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: undefined,
     discussion: 'https://github.com/orgs/nl-design-system/discussions/218',
   },
+  {
+    id: 'drawer',
+    name: 'Drawer',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: undefined,
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/238',
+  },
 ];
