@@ -1813,4 +1813,27 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/201',
   },
+  {
+    id: 'language-nav',
+    name: 'Language navigation',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation:
+          'https://nl-design-system.github.io/utrecht/storybook-css/index.html?path=/docs/css-alternate-lang-nav--docs',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.REACT,
+        implementation:
+          'https://nl-design-system.github.io/utrecht/storybook-react/index.html?path=/docs/react-alternate-lang-nav--docs',
+      },
+    ],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/243',
+  },
 ];
