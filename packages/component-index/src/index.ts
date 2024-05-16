@@ -1836,4 +1836,21 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/243',
   },
+  {
+    id: 'case-card',
+    name: 'Case card',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://nl-design-system.github.io/denhaag/?path=/docs/react-cards-case-card--docs',
+      },
+    ],
+    preview: '',
+    backlog: undefined,
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/204',
+  },
 ];
