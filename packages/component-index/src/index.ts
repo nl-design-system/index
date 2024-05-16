@@ -1502,12 +1502,19 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/138',
   },
   {
-    id: 'progress-steps',
-    name: 'Progress steps',
+    id: 'progress-list',
+    name: 'Progress list',
     aliases: [],
     state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
-    implementations: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.DEN_HAAG,
+        type: COMPONENT_TYPES.HTML,
+        implementation: 'https://github.com/nl-design-system/utrecht/tree/main/components/emphasis/html',
+        story: 'https://nl-design-system.github.io/denhaag/?path=/docs/react-process-steps-status--docs',
+      },
+    ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/150',
   },
