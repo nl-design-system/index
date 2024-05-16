@@ -1903,4 +1903,15 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: undefined,
     discussion: 'https://github.com/orgs/nl-design-system/discussions/238',
   },
+  {
+    id: 'definition-list',
+    name: 'Definition list',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: undefined,
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/216',
+  },
 ];
