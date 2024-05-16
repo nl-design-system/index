@@ -1753,8 +1753,8 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/182',
   },
   {
-    id: 'data-list',
-    name: 'Data list',
+    id: 'summary-list',
+    name: 'Summary list',
     aliases: [],
     state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
@@ -1768,6 +1768,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/185',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/215',
   },
   {
     id: 'legend',
