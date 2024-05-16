@@ -44,6 +44,7 @@ export enum ORGANISATIONS {
 export enum COMPONENT_STATES {
   DISCOURAGED = 'Discouraged',
   TODO = 'Help Wanted',
+  UNKNOWN = 'Unknown',
   COMMUNITY = 'Community',
   NL_UNSTABLE = 'Candidate',
   NL_STABLE = 'Hall of fame',
@@ -1778,5 +1779,31 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/199',
+  },
+  {
+    id: 'image',
+    name: 'Image',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.CSS,
+        implementation: 'https://nl-design-system.github.io/utrecht/storybook-css/?path=/docs/css-img--docs',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://nl-design-system.github.io/utrecht/storybook-react/?path=/docs/react-image--docs',
+      },
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.VUE,
+        implementation: 'https://nl-design-system.github.io/utrecht/storybook/?path=/docs/vue_vue-image--docs',
+      },
+    ],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/201',
   },
 ];
