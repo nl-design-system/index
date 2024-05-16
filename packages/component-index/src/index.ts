@@ -1468,7 +1468,6 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
-  // Needs rationale
   {
     id: 'character-count',
     name: 'Character count',
@@ -1479,17 +1478,6 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/130',
   },
-  // Needs rationale
-  // {
-  //   id: 'confirm-checkbox',
-  //   name: 'Confirm-checkbox',
-  //   aliases: [],
-  //   state: COMPONENT_STATES.TODO,
-  //   communityDocs: [],
-  //   implementations: [],
-  //   preview: '',
-  //   backlog: 'https://github.com/nl-design-system/backlog/issues/131',
-  // },
   {
     id: 'password-input',
     name: 'Password input',
