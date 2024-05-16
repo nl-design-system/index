@@ -227,17 +227,6 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_notification.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/9',
   },
-  // Needs rationale
-  // {
-  //   id: 'expandable-region',
-  //   name: 'Expandable Region',
-  //   aliases: [],
-  //   state: COMPONENT_STATES.COMMUNITY,
-  //   communityDocs: [],
-  //   implementations: [],
-  //   preview: '',
-  //   backlog: 'https://github.com/nl-design-system/backlog/issues/10',
-  // },
   {
     id: 'switch',
     name: 'Switch',
