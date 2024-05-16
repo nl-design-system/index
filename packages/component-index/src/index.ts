@@ -61,7 +61,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'text-input',
     name: 'Text input',
     aliases: ['text-field', 'textbox'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -133,7 +133,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'status-badge',
     name: 'Status badge',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -159,7 +159,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'counter-badge',
     name: 'Counter badge',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -203,7 +203,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'alert',
     name: 'Alert',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -232,7 +232,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'switch',
     name: 'Switch',
     aliases: ['toggle', 'toggle-button', 'form-toggle'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -271,7 +271,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'select',
     name: 'Select',
     aliases: ['dropdown-listbox', 'dropdown'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -308,7 +308,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'date-picker',
     name: 'Date picker',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -318,7 +318,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'range',
     name: 'Range',
     aliases: ['slider'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -328,7 +328,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'button',
     name: 'Button',
     aliases: ['button-primary', 'button-secondary'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.UTRECHT,
@@ -389,7 +389,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'table',
     name: 'Table',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -429,7 +429,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'textarea',
     name: 'Textarea',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -479,7 +479,7 @@ export const componentIndex: DesignSystemComponent[] = [
   //   id: 'step-indicator',
   //   name: 'Step Indicator',
   //   aliases: ['form-progress'],
-  //   state: COMPONENT_STATES.TODO,
+  //   state: COMPONENT_STATES.UNKNOWN,
   //   communityDocs: [],
   //   implementations: [],
   //   preview: '',
@@ -489,7 +489,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'progress',
     name: 'Progress',
     aliases: ['progress-bar', 'progress-indicator'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_progress.svg',
@@ -509,7 +509,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'tabs',
     name: 'Tabs',
     aliases: ['tab'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -539,7 +539,7 @@ export const componentIndex: DesignSystemComponent[] = [
   //   id: 'main-navigation',
   //   name: 'Main navigation',
   //   aliases: [],
-  //   state: COMPONENT_STATES.TODO,
+  //   state: COMPONENT_STATES.UNKNOWN,
   //   communityDocs: [],
   //   implementations: [],
   //   preview: '',
@@ -549,7 +549,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'side-navigation',
     name: 'Side navigation',
     aliases: ['sidebar'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -572,7 +572,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'breadcrumb',
     name: 'Breadcrumb navigation',
     aliases: ['breadcrumb-bar'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -614,9 +614,9 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
     id: 'page-header',
-    name: 'Page Header',
+    name: 'Page header',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -624,9 +624,9 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
     id: 'page-footer',
-    name: 'Page Footer',
+    name: 'Page footer',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -636,7 +636,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'checkbox',
     name: 'Checkbox',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -687,7 +687,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'radio',
     name: 'Radio button',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -738,7 +738,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'modal-dialog',
     name: 'Modal dialog',
     aliases: ['modal'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -767,7 +767,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'video',
     name: 'Video',
     aliases: ['media-player'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -777,7 +777,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'figure',
     name: 'Figure',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -787,7 +787,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'file-input',
     name: 'File input',
     aliases: ['file-upload'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -804,7 +804,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'blockquote',
     name: 'Blockquote',
     aliases: ['quote', 'pull-quote'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -836,7 +836,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'skip-link',
     name: 'Skip link',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -853,7 +853,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'spinner',
     name: 'Spinner',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -863,7 +863,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'avatar',
     name: 'Avatar',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -880,7 +880,7 @@ export const componentIndex: DesignSystemComponent[] = [
   //   id: 'description-list',
   //   name: 'Description List',
   //   aliases: [],
-  //   state: COMPONENT_STATES.TODO,
+  //   state: COMPONENT_STATES.UNKNOWN,
   //   communityDocs: [],
   //   implementations: [],
   //   preview: '',
@@ -890,7 +890,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'data-badge',
     name: 'Data badge',
     aliases: ['text-badge', 'tag', 'chip'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -900,7 +900,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'dot-badge',
     name: 'Dot badge',
     aliases: ['dot-indicator'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -918,7 +918,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'card-as-link',
     name: 'Card as link',
     aliases: ['link-card'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -928,7 +928,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'accordion',
     name: 'Accordion',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -964,7 +964,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'pagination',
     name: 'Pagination',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -1001,10 +1001,10 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/106',
   },
   {
-    id: 'variable-heading',
-    name: 'Variable Heading',
+    id: 'heading',
+    name: 'Heading',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1021,7 +1021,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-1',
     name: 'Heading 1',
     aliases: ['h1'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1046,7 +1046,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-2',
     name: 'Heading 2',
     aliases: ['h2'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1071,7 +1071,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-3',
     name: 'Heading 3',
     aliases: ['h3'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1096,7 +1096,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-4',
     name: 'Heading 4',
     aliases: ['h4'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1121,7 +1121,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-5',
     name: 'Heading 5',
     aliases: ['h5'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1146,7 +1146,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'heading-6',
     name: 'Heading 6',
     aliases: ['h6'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1171,7 +1171,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'paragraph',
     name: 'Paragraph',
     aliases: ['alinea', 'text'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1209,7 +1209,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'unordered-list',
     name: 'Unordered list',
     aliases: ['ul'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1240,7 +1240,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'ordered-list',
     name: 'Ordered list',
     aliases: ['ol'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1271,7 +1271,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'link',
     name: 'Link',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1312,7 +1312,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'separator',
     name: 'Separator',
     aliases: ['divider'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
       {
         organisation: ORGANISATIONS.DEN_HAAG,
@@ -1371,7 +1371,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-error-message',
     name: 'Form field error message',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1388,7 +1388,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'fieldset',
     name: 'Fieldset',
     aliases: [],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1408,7 +1408,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'number-input',
     name: 'Number input',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1418,7 +1418,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'rich-text-content',
     name: 'Rich text content',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1428,7 +1428,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'checkbox-group',
     name: 'Checkbox group',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1445,7 +1445,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'radio-group',
     name: 'Radio group',
     aliases: ['radio-button-group'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1462,7 +1462,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'character-count',
     name: 'Character count',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1472,7 +1472,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'password-input',
     name: 'Password input',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1482,7 +1482,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'strong',
     name: 'Strong',
     aliases: ['strong-emphasis'],
-    state: COMPONENT_STATES.COMMUNITY,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1505,7 +1505,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'progress-steps',
     name: 'Progress steps',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1515,7 +1515,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'button-group',
     name: 'Button group',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1532,7 +1532,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'notification-banner',
     name: 'Notification banner',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1542,7 +1542,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'toggletip',
     name: 'Toggletip',
     aliases: ['tooltip'],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1552,7 +1552,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-option-label',
     name: 'Form field option label',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1569,7 +1569,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-checkbox-option',
     name: 'Form field checkbox option',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1586,7 +1586,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-radio-option',
     name: 'Form field radio option',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1603,7 +1603,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-description',
     name: 'Form field description',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1620,7 +1620,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'invalid-form-alert',
     name: 'Invalid form alert',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1637,7 +1637,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field',
     name: 'Form field',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1654,7 +1654,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-label',
     name: 'Form field label',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1671,7 +1671,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'text-input-group',
     name: 'Text input group',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1681,7 +1681,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-partial',
     name: 'Form field partial',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1691,7 +1691,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'form-field-partial-label',
     name: 'Form field partial label',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1701,7 +1701,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'non-modal-dialog',
     name: 'Non modal dialog',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1711,7 +1711,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'alert-dialog',
     name: 'Alert dialog',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1721,7 +1721,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'data-list',
     name: 'Data list',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
@@ -1738,7 +1738,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'legend',
     name: 'Legend',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1748,7 +1748,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'date-input',
     name: 'Date input',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1758,7 +1758,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'date-input-group',
     name: 'Date input group',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [],
     preview: '',
@@ -1768,7 +1768,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'calendar',
     name: 'Calendar',
     aliases: [],
-    state: COMPONENT_STATES.TODO,
+    state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
       {
