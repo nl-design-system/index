@@ -305,6 +305,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_select.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/34',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/239',
   },
   {
     id: 'date-picker',
@@ -325,6 +326,7 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/36',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/231',
   },
   {
     id: 'button',
@@ -386,6 +388,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_button.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/38',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/205',
   },
   {
     id: 'table',
@@ -535,6 +538,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_tabs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/51',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/232',
   },
   // Needs rationale and a decision if it is a best-practice or component for NL Design System
   // {
@@ -614,6 +618,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_breadcrumbs.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/54',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/224',
   },
   {
     id: 'page-header',
@@ -765,6 +770,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/66',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/237',
   },
   {
     id: 'video',
@@ -853,6 +859,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/74',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/252',
   },
   {
     id: 'spinner',
@@ -964,6 +971,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_accordion.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/102',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/217',
   },
   {
     id: 'pagination',
@@ -1021,6 +1029,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_headings.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/114',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/220',
   },
   {
     id: 'heading-1',
@@ -1209,6 +1218,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_paragraph.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/115',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/212',
   },
   {
     id: 'unordered-list',
@@ -1240,6 +1250,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/116',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/229',
   },
   {
     id: 'ordered-list',
@@ -1271,6 +1282,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/117',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/230',
   },
   {
     id: 'link',
@@ -1312,6 +1324,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_text-link.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/118',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/206',
   },
   {
     id: 'separator',
@@ -1371,6 +1384,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/119',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/236',
   },
   {
     id: 'form-field-error-message',
@@ -1388,6 +1402,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/122',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/228',
   },
   {
     id: 'fieldset',
@@ -1418,6 +1433,7 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/125',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/235',
   },
   {
     id: 'rich-text-content',
@@ -1445,6 +1461,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/128',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/223',
   },
   {
     id: 'radio-group',
@@ -1462,6 +1479,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/222',
   },
   {
     id: 'character-count',
@@ -1522,6 +1540,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/150',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/250',
   },
   {
     id: 'button-group',
@@ -1539,6 +1558,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/153',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/234',
   },
   {
     id: 'notification-banner',
@@ -1576,6 +1596,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/171',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/226',
   },
   {
     id: 'form-field-checkbox-option',
@@ -1627,6 +1648,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/174',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/227',
   },
   {
     id: 'invalid-form-alert',
@@ -1688,6 +1710,7 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/178',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/225',
   },
   {
     id: 'form-field-partial',
@@ -1856,7 +1879,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: undefined,
-    discussion: 'https://github.com/orgs/nl-design-system/discussions/204',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/245',
   },
   {
     id: 'details',
