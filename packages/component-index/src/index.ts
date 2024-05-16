@@ -1469,16 +1469,16 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/129',
   },
   // Needs rationale
-  // {
-  //   id: 'character-limit-counter',
-  //   name: 'Character Limit Counter',
-  //   aliases: [],
-  //   state: COMPONENT_STATES.TODO,
-  //   communityDocs: [],
-  //   implementations: [],
-  //   preview: '',
-  //   backlog: 'https://github.com/nl-design-system/backlog/issues/130',
-  // },
+  {
+    id: 'character-count',
+    name: 'Character count',
+    aliases: [],
+    state: COMPONENT_STATES.TODO,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/130',
+  },
   // Needs rationale
   // {
   //   id: 'confirm-checkbox',
