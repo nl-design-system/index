@@ -1786,4 +1786,20 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/189',
   },
+  {
+    id: 'calendar',
+    name: 'Calendar',
+    aliases: [],
+    state: COMPONENT_STATES.TODO,
+    communityDocs: [],
+    implementations: [
+      {
+        organisation: ORGANISATIONS.UTRECHT,
+        type: COMPONENT_TYPES.REACT,
+        implementation: 'https://nl-design-system.github.io/utrecht/storybook-react/?path=/docs/react-calendar--docs',
+      },
+    ],
+    preview: '',
+    backlog: 'https://github.com/nl-design-system/backlog/issues/199',
+  },
 ];
