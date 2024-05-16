@@ -5,7 +5,8 @@ export interface DesignSystemComponent {
   communityDocs?: CommunityDocumentation[];
   implementations?: ComponentImplementation[];
   preview?: string;
-  backlog: string;
+  backlog?: string;
+  discussion?: string;
   state: COMPONENT_STATES;
 }
 
@@ -198,6 +199,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_counter-badge.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/7',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/214',
   },
   {
     id: 'alert',
@@ -567,6 +569,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/53',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/242',
   },
   {
     id: 'breadcrumb',
@@ -782,6 +785,7 @@ export const componentIndex: DesignSystemComponent[] = [
     implementations: [],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/70',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/221',
   },
   {
     id: 'file-input',
@@ -831,6 +835,7 @@ export const componentIndex: DesignSystemComponent[] = [
     ],
     preview: '',
     backlog: 'https://github.com/nl-design-system/backlog/issues/73',
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/219',
   },
   {
     id: 'skip-link',
@@ -1852,5 +1857,16 @@ export const componentIndex: DesignSystemComponent[] = [
     preview: '',
     backlog: undefined,
     discussion: 'https://github.com/orgs/nl-design-system/discussions/204',
+  },
+  {
+    id: 'details',
+    name: 'Details',
+    aliases: [],
+    state: COMPONENT_STATES.UNKNOWN,
+    communityDocs: [],
+    implementations: [],
+    preview: '',
+    backlog: undefined,
+    discussion: 'https://github.com/orgs/nl-design-system/discussions/218',
   },
 ];
