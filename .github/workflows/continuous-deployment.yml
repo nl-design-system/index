@@ -5,6 +5,7 @@ on:
     branches:
       - main
   pull_request:
+  workflow_dispatch:
 
 jobs:
   continuous-integration:
@@ -68,6 +69,8 @@ jobs:
           pnpm ls --recursive
 
       - name: Run the build script in package.json scripts
+        env:
+          GH_ISSUES_TOKEN: ${{ secrets.GH_ISSUES_TOKEN }}
         run: |
           pnpm run --if-present build
 
