@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "author": "Community for NL Design System",
+  "description": "Script to get the component progress for the documentation of NL Design System",
+  "license": "EUPL-1.2",
+  "name": "@nl-design-system/component-progress",
+  "keywords": [
+    "nl-design-system"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nl-design-system/documentatie.git"
+  },
+  "scripts": {
+    "build": "node src/index.mjs",
+    "clean": "rm -rf dist/",
+    "prebuild": "npm run clean"
+  },
+  "devDependencies": {
+    "@octokit/graphql": "8.1.1",
+    "lodash.isempty": "4.4.0",
+    "octokit": "4.0.2"
+  }
+}
