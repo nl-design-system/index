@@ -13,20 +13,20 @@ jobs:
 
     steps:
       - name: Download code from GitHub
-        uses: actions/checkout@v4.1.2
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
 
       - name: Set up Node.js version
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
         with:
           node-version-file: .nvmrc
           cache: pnpm
 
       - name: Install dependencies specified in package.json
         run: |
-          pnpm install
+          pnpm install --frozen-lockfile
           pnpm ls --recursive
 
       - name: Run the lint script in package.json scripts
@@ -49,22 +49,22 @@ jobs:
 
     steps:
       - name: Download code from GitHub
-        uses: actions/checkout@v4.1.2
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
 
       - name: Set up Node.js version
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
         with:
           node-version-file: .nvmrc
           cache: pnpm
 
       - name: Install dependencies as specified in package.json
         run: |
-          pnpm install
+          pnpm install --frozen-lockfile
           pnpm ls --recursive
 
       - name: Run the build script in package.json scripts
