@@ -157,8 +157,8 @@ export const componentIndex: DesignSystemComponent[] = [
     backlog: 'https://github.com/nl-design-system/backlog/issues/6',
   },
   {
-    id: 'counter-badge',
-    name: 'Counter badge',
+    id: 'number-badge',
+    name: 'Number badge',
     aliases: [],
     state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [
@@ -197,7 +197,8 @@ export const componentIndex: DesignSystemComponent[] = [
           'https://www.figma.com/file/shhwGcqPLi2CapK0P1zz8O/NL-Design-System---Bibliotheek?type=design&node-id=1233-4271',
       },
     ],
-    preview: 'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/component_counter-badge.svg',
+    preview:
+      'https://raw.githubusercontent.com/nl-design-system/documentatie/assets/componenten_overzicht_number-badge.svg',
     backlog: 'https://github.com/nl-design-system/backlog/issues/7',
     discussion: 'https://github.com/orgs/nl-design-system/discussions/214',
   },
