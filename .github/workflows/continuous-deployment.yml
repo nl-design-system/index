@@ -83,12 +83,12 @@ jobs:
           GIT_COMMITTER_NAME: "NL Design System"
         run: |
           git push --set-upstream origin HEAD
-          pnpm run release -- --yes
+          pnpm run release
 
       - name: Publish to npm repository
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
-          pnpm run publish -- --no-verify-access --yes
+          pnpm run publish
           pnpm config delete "//registry.npmjs.org/:_authToken"
