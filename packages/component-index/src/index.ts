@@ -1185,7 +1185,7 @@ export const componentIndex: DesignSystemComponent[] = [
     id: 'paragraph',
     name: 'Paragraph',
     aliases: ['alinea', 'text'],
-    state: COMPONENT_STATES.UNKNOWN,
+    state: COMPONENT_STATES.COMMUNITY,
     communityDocs: [],
     implementations: [
       {
