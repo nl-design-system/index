@@ -19,7 +19,7 @@
     "@babel/core": "7.24.5",
     "@babel/eslint-parser": "7.24.5",
     "@babel/plugin-syntax-import-attributes": "7.24.1",
-    "@lerna-lite/cli": "3.3.3",
+    "@lerna-lite/cli": "3.4.0",
     "@lerna-lite/publish": "3.3.3",
     "@lerna-lite/version": "3.3.3",
     "@types/node": "20.12.11",
