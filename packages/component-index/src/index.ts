@@ -1545,8 +1545,8 @@ export const componentIndex: DesignSystemComponent[] = [
   },
   {
     id: 'button-group',
-    name: 'Button group',
-    aliases: [],
+    name: 'Action group',
+    aliases: ['Button group'],
     state: COMPONENT_STATES.UNKNOWN,
     communityDocs: [],
     implementations: [
