@@ -22,15 +22,15 @@
     "url": "git@github.com:nl-design-system/index.git"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "node src/index.mjs",
     "clean": "rimraf dist/",
     "lint": "tsc --project ./tsconfig.json --noEmit"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "11.1.6",
+    "@octokit/core": "6.1.2",
+    "@octokit/plugin-paginate-graphql": "5.2.2",
+    "lodash.isempty": "4.4.0",
     "rimraf": "5.0.7",
-    "rollup": "4.18.0",
-    "rollup-plugin-filesize": "10.0.0",
     "typescript": "5.4.5"
   }
 }
