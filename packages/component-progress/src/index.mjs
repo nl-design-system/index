@@ -1,27 +1,27 @@
 import * as fs from 'fs/promises';
-import { getComponentProgess } from './getComponents.mjs';
-import { getProjectDetails } from './getProjects.mjs';
+import { getComponentIssues, getProjects } from './graphql/index.mjs';
+import { mapProjects, mapToComponentProgress, PROJECT_NUMBERS } from './utils/index.mjs';
 
 const init = async () => {
   try {
     await fs.mkdir('./dist', { recursive: true });
   } catch (error) {
-    console.error('Could not create dist directory', error);
+    console.error('Could not create dist directory');
   }
 
-  try {
-    const componentProgress = await getComponentProgess();
-    await fs.writeFile('./dist/component-progress.json', JSON.stringify(componentProgress));
-  } catch (error) {
-    console.error('Could not create component-progress.json', error);
-  }
+  const projects = await getProjects(PROJECT_NUMBERS);
+  const mappedProjects = mapProjects(projects);
 
-  try {
-    const projectDetails = await getProjectDetails();
-    await fs.writeFile('./dist/project-details.json', JSON.stringify(projectDetails));
-  } catch (error) {
-    console.error('Could not create project-details.json', error);
-  }
+  await fs
+    .writeFile('./dist/projects.json', JSON.stringify(mappedProjects))
+    .catch(() => console.error('Could not create projects.json'));
+
+  const componentIssues = await getComponentIssues();
+  const componentProgress = mapToComponentProgress(componentIssues, mappedProjects);
+
+  await fs
+    .writeFile('./dist/index.json', JSON.stringify(componentProgress))
+    .catch(() => console.error('Could not create index.json'));
 };
 
 init();

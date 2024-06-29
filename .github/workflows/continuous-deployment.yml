@@ -35,6 +35,8 @@ jobs:
           pnpm run --if-present lint
 
       - name: Run the build script in package.json scripts
+        env:
+          GH_ISSUES_TOKEN: ${{ secrets.GH_ISSUES_TOKEN }}
         run: |
           pnpm run --if-present build
 
@@ -71,8 +73,7 @@ jobs:
       - name: Run the build script in package.json scripts
         env:
           GH_ISSUES_TOKEN: ${{ secrets.GH_ISSUES_TOKEN }}
-        run: |
-          pnpm run --if-present build
+        run: pnpm run --if-present build
 
       - name: Publish to GitHub repository
         env:
