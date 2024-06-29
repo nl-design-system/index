@@ -21,8 +21,8 @@
     "prebuild": "npm run clean"
   },
   "devDependencies": {
-    "@octokit/graphql": "8.1.1",
-    "lodash.isempty": "4.4.0",
-    "octokit": "4.0.2"
+    "@octokit/core": "6.1.2",
+    "@octokit/plugin-paginate-graphql": "5.2.2",
+    "lodash.isempty": "4.4.0"
   }
 }
