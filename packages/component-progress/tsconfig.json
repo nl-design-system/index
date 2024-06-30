@@ -1,0 +1,16 @@
+{
+  "esm": true,
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "./src/",
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/node_modules/*"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
