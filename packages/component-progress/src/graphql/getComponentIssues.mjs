@@ -12,6 +12,7 @@ export const getComponentIssues = async () => {
       totalCount
       nodes {
         title
+        number
         backlog: bodyUrl
         projectItems(includeArchived: false, first: 100) {
           nodes {
