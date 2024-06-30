@@ -15,14 +15,21 @@
     "type": "git+ssh",
     "url": "git@github.com:nl-design-system/documentatie.git"
   },
+  "files": [
+    "dist/*.json"
+  ],
+  "type": "module",
   "scripts": {
-    "build": "node src/index.mjs",
+    "build": "tsc --project tsconfig.json && node dist/index.js",
     "clean": "rm -rf dist/",
+    "lint": "tsc --noEmit --project tsconfig.json",
     "prebuild": "npm run clean"
   },
   "devDependencies": {
     "@octokit/core": "6.1.2",
     "@octokit/plugin-paginate-graphql": "5.2.2",
+    "@types/lodash.isempty": "4.4.9",
+    "@types/node": "20.14.2",
     "lodash.isempty": "4.4.0"
   }
 }

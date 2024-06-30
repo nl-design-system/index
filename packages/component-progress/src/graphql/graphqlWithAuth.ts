@@ -5,9 +5,9 @@ import { paginateGraphQL } from '@octokit/plugin-paginate-graphql';
 export const graphqlWithAuth = () => {
   const MyOctokit = Octokit.plugin(paginateGraphQL);
 
-  if (!process.env.GH_ISSUES_TOKEN) {
+  if (!process.env['GH_ISSUES_TOKEN']) {
     throw Error('GH_ISSUES_TOKEN is not set');
   }
 
-  return new MyOctokit({ auth: process.env.GH_ISSUES_TOKEN });
+  return new MyOctokit({ auth: process.env['GH_ISSUES_TOKEN'] });
 };
