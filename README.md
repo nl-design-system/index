@@ -36,3 +36,8 @@ The `pnpm run build` script requires a `GH_ISSUES_TOKEN` enviroment variable. To
 **Note**: This is an access token! It should only be saved locally and never be committed to GitHub or shared with anyone else.
 
 Now you can run `source .env; pnpm run build` locally.
+
+### Releases
+
+The `@nl-design-system/component-progress` package needs to be updated everytime a release is made, regardless of changes in the repository. This is because it calls GitHub API's for generating JSON files based on GitHub projectboards.
+To make this happen we use `--force-publish=@nl-design-system/component-progress` in de `release` script.
