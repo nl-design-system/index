@@ -54,7 +54,7 @@
     "prepare": "husky",
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package --yes",
-    "release": "lerna version prerelease --conventional-prerelease --no-changelog --no-private --yes",
+    "release": "lerna version prerelease --conventional-prerelease --force-publish=@nl-design-system/component-progress --no-changelog --no-private --yes",
     "update-patch": "npm-check-updates --configFileName .ncurc.patch.cjs",
     "update-minor": "npm-check-updates --configFileName .ncurc.minor.cjs",
     "update-major": "npm-check-updates --configFileName .ncurc.major.cjs"
