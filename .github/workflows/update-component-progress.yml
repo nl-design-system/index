@@ -1,6 +1,7 @@
 name: Update component progress
 
-on: workflow_dispatch:
+on:
+  workflow_dispatch:
 
 jobs:
   publish-npm:
