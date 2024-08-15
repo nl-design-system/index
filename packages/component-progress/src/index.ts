@@ -5,7 +5,7 @@ import { mapProjects, mapToComponentProgress } from './utils/index.js';
 const init = async () => {
   try {
     await mkdir('./dist', { recursive: true });
-  } catch (error) {
+  } catch {
     console.error('Could not create dist directory');
   }
 
