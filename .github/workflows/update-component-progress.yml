@@ -13,7 +13,7 @@ jobs:
       - name: Download code from GitHub
         uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
         with:
-          token: ${{ secrets.GH_REPO_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Install pnpm package manager
         uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
@@ -36,7 +36,7 @@ jobs:
 
       - name: Publish to GitHub repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
           GIT_AUTHOR_NAME: "NL Design System"
           GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
