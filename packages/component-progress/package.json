@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@octokit/core": "6.1.2",
-    "@octokit/plugin-paginate-graphql": "5.2.2",
+    "@octokit/plugin-paginate-graphql": "5.2.3",
     "@types/lodash.isempty": "4.4.9",
     "@types/node": "22.3.0",
     "lodash.isempty": "4.4.0"
