@@ -22,7 +22,7 @@
     "@lerna-lite/cli": "3.8.0",
     "@lerna-lite/publish": "3.8.0",
     "@lerna-lite/version": "3.8.0",
-    "@types/node": "22.3.0",
+    "@types/node": "22.7.4",
     "@typescript-eslint/eslint-plugin": "8.1.0",
     "@typescript-eslint/parser": "8.1.0",
     "eslint": "8.57.0",
