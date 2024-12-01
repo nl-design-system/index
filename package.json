@@ -30,7 +30,7 @@
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-mdx": "3.1.5",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "lint-staged": "15.2.10",
     "markdownlint-cli": "0.41.0",
     "npm-check-updates": "17.1.1",
