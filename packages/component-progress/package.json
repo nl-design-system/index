@@ -16,7 +16,8 @@
     "url": "git@github.com:nl-design-system/documentatie.git"
   },
   "files": [
-    "dist/*.json"
+    "dist/*.json",
+    "dist/**/*.d.ts"
   ],
   "type": "module",
   "scripts": {
