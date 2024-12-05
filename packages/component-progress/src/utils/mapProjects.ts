@@ -1,5 +1,5 @@
 import { PROJECTS } from './index.js';
-import { Project, ProjectV2FieldCommon } from '../graphql/getProjects.js';
+import type { Project, ProjectV2FieldCommon } from '../graphql/getProjects.js';
 
 export type MappedProjects = (Omit<Project, 'views'> & { number: number; key: string; tasks: any[] })[];
 

@@ -1,6 +1,6 @@
 import isEmpty from 'lodash.isempty';
-import { MappedProjects, PROJECT_NUMBERS, PROJECTS } from './index.js';
-import { ComponentIssue, ProjectFieldValue, ProjectItem } from '../graphql/getComponentIssues.js';
+import { type MappedProjects, PROJECT_NUMBERS, PROJECTS } from './index.js';
+import type { ComponentIssue, ProjectFieldValue, ProjectItem } from '../graphql/getComponentIssues.js';
 
 const cleanupValue = ({ field, value, color }: ProjectFieldValue) => {
   // Only allow https values
@@ -73,7 +73,7 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
   };
 };
 
-type RelayStep = 'HALL_OF_FAME' | 'CANDIDATE' | 'COMMUNITY' | 'HELP_WANTED' | 'UNKNOWN';
+export type RelayStep = 'HALL_OF_FAME' | 'CANDIDATE' | 'COMMUNITY' | 'HELP_WANTED' | 'UNKNOWN';
 
 const getRelayStep = (issue: Omit<CleanComponentProgress, 'relayStep'>): CleanComponentProgress => {
   const HELP_WANTED = issue.projects.find(({ id }) => id === 'HELP_WANTED')?.done;
@@ -97,7 +97,7 @@ const getRelayStep = (issue: Omit<CleanComponentProgress, 'relayStep'>): CleanCo
   };
 };
 
-interface ExtendedCleanComponent extends CleanComponent {
+export interface ExtendedCleanComponent extends CleanComponent {
   done: boolean;
   progress: {
     value: number;
@@ -110,7 +110,7 @@ interface ExtendedCleanComponent extends CleanComponent {
   }[];
 }
 
-interface CleanComponentProgress {
+export interface CleanComponentProgress {
   title: string;
   backlog: string;
   number: number;
