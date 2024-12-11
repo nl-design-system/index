@@ -21,7 +21,7 @@
     "@babel/plugin-syntax-import-attributes": "7.25.6",
     "@lerna-lite/cli": "3.9.1",
     "@lerna-lite/publish": "3.9.1",
-    "@lerna-lite/version": "3.9.1",
+    "@lerna-lite/version": "3.10.1",
     "@types/node": "22.5.5",
     "@typescript-eslint/eslint-plugin": "8.5.0",
     "@typescript-eslint/parser": "8.5.0",
