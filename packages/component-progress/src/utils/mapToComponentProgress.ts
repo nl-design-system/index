@@ -60,7 +60,7 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
     }) || [];
 
   const checked = issue.tasks.filter((issue) => issue.checked);
-  const done = checked.length === project?.tasks.length;
+  const done = checked.length >= (project?.tasks.length || 0);
 
   return {
     ...issue,
