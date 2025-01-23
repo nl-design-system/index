@@ -1,6 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
 import filesize from 'rollup-plugin-filesize';
-import packageJson from './package.json' assert { type: 'json' };
+import packageJson from './package.json' with { type: 'json' };
 
 /**
  * @type {import('rollup').RollupOptions}
