@@ -1,19 +1,19 @@
 {
-  "version": "1.0.1-alpha.108",
-  "author": "Community for NL Design System",
-  "description": "Script to get the component progress for the documentation of NL Design System",
-  "license": "EUPL-1.2",
   "name": "@nl-design-system/component-progress",
+  "version": "1.0.1-alpha.108",
+  "description": "Script to get the component progress for the documentation of NL Design System",
+  "author": "Community for NL Design System",
+  "license": "EUPL-1.2",
   "keywords": [
     "nl-design-system"
   ],
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
   "repository": {
-    "type": "git+ssh",
-    "url": "git@github.com:nl-design-system/documentatie.git"
+    "type": "git",
+    "url": "github:nl-design-system/index",
+    "directory": "packages/component-progress"
   },
   "files": [
     "dist/*.json",
@@ -23,8 +23,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json && node dist/index.js",
     "clean": "rm -rf dist/",
-    "lint": "tsc --noEmit --project tsconfig.json",
-    "prebuild": "npm run clean"
+    "lint": "tsc --noEmit --project tsconfig.json"
   },
   "devDependencies": {
     "@octokit/core": "6.1.2",
