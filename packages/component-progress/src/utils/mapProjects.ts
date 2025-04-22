@@ -1,6 +1,7 @@
 import { PROJECTS } from './index.js';
 import type { Project, ProjectV2FieldCommon } from '../graphql/getProjects.js';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type MappedProjects = (Omit<Project, 'views'> & { number: number; key: string; tasks: any[] })[];
 
 const filterProjectChecks = (nodes: ProjectV2FieldCommon[]) =>
