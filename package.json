@@ -1,18 +1,17 @@
 {
-  "version": "1.0.0-alpha.0",
-  "author": "Community for NL Design System",
-  "description": "Design system based on the NL Design System architecture",
-  "license": "EUPL-1.2",
   "name": "@nl-design-system/index",
+  "description": "Design system based on the NL Design System architecture",
+  "author": "Community for NL Design System",
+  "license": "EUPL-1.2",
   "keywords": [
     "nl-design-system"
   ],
   "private": true,
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f",
   "engines": {
     "//": "Update @types/node to match the highest node version here",
     "node": ">=20 <=22",
-    "pnpm": "^9"
+    "pnpm": "^10"
   },
   "devDependencies": {
     "@babel/core": "7.25.2",
