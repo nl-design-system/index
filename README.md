@@ -31,7 +31,7 @@ The `pnpm run build` script requires a `GH_ISSUES_TOKEN` enviroment variable. To
    - Repository permissions: `Issues: Read-only`
    - Organisation permissions: `Projects: Read-only`
    - Copy token
-5. In the `.env` file add `export GITHUB_ISSUES_TOKEN="<paste your token>"`
+5. In the `.env` file add `export GH_ISSUES_TOKEN="<paste your token>"`
 
 **Note**: This is an access token! It should only be saved locally and never be committed to GitHub or shared with anyone else.
 
