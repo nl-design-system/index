@@ -24,6 +24,7 @@ export interface CleanComponent {
   url: string;
   tasks: {
     id: number;
+    name: string;
     value?: string;
     checked: boolean;
   }[];
@@ -47,19 +48,25 @@ const cleanupFields = ({
 
 const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedCleanComponent => {
   const project = projects.find((project) => project.number === issue.number);
+
+  // Don't count framework-related tasks toward component progress
+  const frameworkRx = /\(React|Vue|Angular|Web Component|HTML\)/;
+
   const tasks =
-    project?.tasks.map((task) => {
-      const check = issue.tasks.find((check) => check.id === task.id);
-      const fallBack = {
-        ...task,
-        value: '',
-        checked: false,
-      };
+    project?.tasks
+      .filter((task) => !frameworkRx.exec(task.name))
+      .map((task) => {
+        const check = issue.tasks.find((check) => check.id === task.id);
+        const fallBack = {
+          ...task,
+          value: '',
+          checked: false,
+        };
 
-      return check || fallBack;
-    }) || [];
+        return check || fallBack;
+      }) || [];
 
-  const checked = issue.tasks.filter((issue) => issue.checked);
+  const checked = issue.tasks.filter((task) => !frameworkRx.exec(task.name)).filter((issue) => issue.checked);
   const done = checked.length >= (project?.tasks.length || 0);
 
   return {
@@ -67,7 +74,7 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
     done,
     progress: {
       value: checked.length,
-      max: project?.tasks.length || 0,
+      max: tasks.length || 0,
     },
     tasks,
   };
@@ -105,6 +112,7 @@ export interface ExtendedCleanComponent extends CleanComponent {
   };
   tasks: {
     id: number;
+    name: string;
     value: string;
     checked: boolean;
   }[];
