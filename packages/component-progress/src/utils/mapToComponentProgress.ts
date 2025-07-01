@@ -49,32 +49,30 @@ const cleanupFields = ({
 const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedCleanComponent => {
   const project = projects.find((project) => project.number === issue.number);
 
+  const tasks =
+    project?.tasks.map((task) => {
+      const check = issue.tasks.find((check) => check.id === task.id);
+      const fallBack = {
+        ...task,
+        value: '',
+        checked: false,
+      };
+
+      return check || fallBack;
+    }) || [];
+
   // Don't count framework-related tasks toward component progress
   const frameworkRx = /\(React|Vue|Angular|Web Component|HTML\)/;
-
-  const tasks =
-    project?.tasks
-      .filter((task) => !frameworkRx.exec(task.name))
-      .map((task) => {
-        const check = issue.tasks.find((check) => check.id === task.id);
-        const fallBack = {
-          ...task,
-          value: '',
-          checked: false,
-        };
-
-        return check || fallBack;
-      }) || [];
-
-  const checked = issue.tasks.filter((task) => !frameworkRx.exec(task.name)).filter((issue) => issue.checked);
-  const done = checked.length >= (project?.tasks.length || 0);
+  const progressTotal = issue.tasks.filter((task) => !frameworkRx.exec(task.name));
+  const progressChecked = progressTotal.filter((issue) => issue.checked);
+  const done = progressChecked.length >= (progressTotal.length || 0);
 
   return {
     ...issue,
     done,
     progress: {
-      value: checked.length,
-      max: tasks.length || 0,
+      value: progressChecked.length,
+      max: progressTotal.length || 0,
     },
     tasks,
   };
