@@ -62,7 +62,7 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
     }) || [];
 
   const allProgressTasks = project?.tasks.filter((task) => isProgressTask(task)) || [];
-  const checkedProgressTasks = issue.tasks.filter((task) => isProgressTask(task));
+  const checkedProgressTasks = issue.tasks.filter((task) => isProgressTask(task)).filter((task) => task.checked);
   const done = checkedProgressTasks.length >= (allProgressTasks.length || 0);
 
   return {
