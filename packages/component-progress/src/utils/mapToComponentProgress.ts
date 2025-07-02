@@ -61,18 +61,16 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
       return check || fallBack;
     }) || [];
 
-  // Don't count framework-related tasks toward component progress
-  const frameworkRx = /\(React|Vue|Angular|Web Component|HTML\)/;
-  const progressTotal = issue.tasks.filter((task) => !frameworkRx.exec(task.name));
-  const progressChecked = progressTotal.filter((issue) => issue.checked);
-  const done = progressChecked.length >= (progressTotal.length || 0);
+  const allProgressTasks = project?.tasks.filter((task) => isProgressTask(task)) || [];
+  const checkedProgressTasks = issue.tasks.filter((task) => isProgressTask(task));
+  const done = checkedProgressTasks.length >= (allProgressTasks.length || 0);
 
   return {
     ...issue,
     done,
     progress: {
-      value: progressChecked.length,
-      max: progressTotal.length || 0,
+      value: checkedProgressTasks.length,
+      max: allProgressTasks.length || 0,
     },
     tasks,
   };
@@ -135,3 +133,93 @@ export const mapToComponentProgress = (issues: ComponentIssue[], projects: Mappe
         .map((component) => getAllTasks(component, projects)),
     }))
     .map(getRelayStep);
+
+const isProgressTask = ({ name }: { name: string }): boolean => {
+  // Only count these tasks toward component progress
+  const relayProgressTaskNames = [
+    'A11y audit',
+    'A11y getest',
+    'API conventie',
+    'API gemeenschappelijk',
+    'API unit tests',
+    'Afbeelding',
+    'Afgevinkt.',
+    'Backlog',
+    'Beschrijving',
+    'Beveiliging',
+    'Bruikbaar',
+    'Changelog',
+    'Code changelog',
+    'Component assessment',
+    'Content flexibel',
+    'Coverage features',
+    'Design tokens conventie',
+    'Design tokens nuttig',
+    'Discussion URL',
+    "Do and don't voorbeelden",
+    'Documentatie a11y',
+    'Documentatie aliassen',
+    'Documentatie anatomie',
+    'Documentatie getest',
+    'Documentatie op website',
+    'Figma NLDS',
+    'Figma URL',
+    'Figma changelog',
+    'Figma geversioneerd',
+    'Figma in lijn',
+    'Gebruikersonderzoek',
+    'Getest met designers',
+    'Getest met developers',
+    'Getest met redacteuren',
+    'GitHub (CSS)',
+    'HTML/CSS',
+    'Implementatie voldoet',
+    'Kernteam',
+    'Licentie component',
+    'Licentie documentatie',
+    'Link',
+    'Minimale design tokens',
+    'NPM',
+    'NPM (candidate)',
+    'Naam',
+    'Naamgeving design tokens',
+    'Niet afgevinkt.',
+    'Onderzoek',
+    'Prefix',
+    'Privacy',
+    'Promotie',
+    'React',
+    'Richtlijnen design tokens',
+    'Richtlijnen redacteuren',
+    'Semantiek goedgekeurd',
+    'Semver',
+    'Start thema',
+    'Storybook (CSS)',
+    'Storybook NLDS',
+    "Storybook thema's",
+    'Varianten',
+    'Versimpeld of gesplitst',
+    'Visuele regressietest',
+    'Webcomponent',
+    'Welk bord',
+    'i18n getest',
+    'nldesignsystem.nl',
+    "≥2 Thema's",
+    '≥2 organisaties geswitcht',
+  ];
+  const implementationProgressTaskNames = [
+    'Figma URL',
+    'Figma URL (CSS)',
+    'GitHub URL (CSS)',
+    'Licentie component - EUPL',
+    'Licentie documentatie - CC0',
+    'Minimale design tokens',
+    'NPM URL (CSS)',
+    'Naam',
+    'Naamgeving design tokens',
+    'Organisatie prefix',
+    'Storybook URL (CSS)',
+    'Theme Storybook URL',
+  ];
+  return relayProgressTaskNames.includes(name) || implementationProgressTaskNames.includes(name);
+};
