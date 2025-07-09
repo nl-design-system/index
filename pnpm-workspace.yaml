@@ -1,2 +1,10 @@
 packages:
-  - "packages/*"
+  - packages/*
+
+autoInstallPeers: false
+
+engineStrict: true
+
+saveExact: true
+
+savePrefix: ""
