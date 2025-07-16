@@ -26,10 +26,10 @@
     "lint": "tsc --noEmit --project tsconfig.json"
   },
   "devDependencies": {
-    "@octokit/core": "6.1.5",
-    "@octokit/plugin-paginate-graphql": "5.2.4",
+    "@octokit/core": "7.0.3",
+    "@octokit/plugin-paginate-graphql": "6.0.0",
     "@types/lodash.isempty": "4.4.9",
-    "@types/node": "22.14.1",
+    "@types/node": "24.0.14",
     "lodash.isempty": "4.4.0"
   }
 }
