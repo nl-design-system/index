@@ -38,5 +38,5 @@ export default defineConfig([
   {
     name: 'eslint-config-prettier',
     ...prettier,
-  }
+  },
 ]);
