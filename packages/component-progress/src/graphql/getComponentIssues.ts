@@ -76,6 +76,9 @@ export const getComponentIssues = async () => {
                 ... on ProjectV2ItemFieldTextValue {
                   value: text
                 }
+                ... on ProjectV2ItemFieldDateValue {
+                  value: date
+                }
               }
             }
           }
