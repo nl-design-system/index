@@ -196,6 +196,7 @@ const isProgressTask = ({ name }: { name: string }): boolean => {
     '📝 Zoekwoorden',
     '📝 Stories en specs',
     '📝 Anatomie',
+    '🎉 Fast Track',
     '🎉 Huisstijl instelbaar',
     '🎉 Component gebruikt',
     '🎉 WCAG input',
@@ -216,6 +217,8 @@ const isProgressTask = ({ name }: { name: string }): boolean => {
     '🚀 NPM - Design Tokens',
     '🚀 Figma - Start Bibliotheek',
     '🚀 Figma - Voorbeeld Bibliotheek',
+    '🚀 Themes repository',
+    '🚀 nldesignsystem.nl',
   ];
   const implementationProgressTaskNames = [
     'Figma URL',
