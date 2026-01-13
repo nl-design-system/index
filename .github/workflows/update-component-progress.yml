@@ -55,7 +55,7 @@ jobs:
           git push --set-upstream origin HEAD
           pnpm run release:component-progress
 
-      - name: Publish to npm repository
+      - name: Publish to npm registry
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
