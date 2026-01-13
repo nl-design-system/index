@@ -8,6 +8,12 @@ jobs:
     name: Publish to npm
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    environment: publish
+
+    permissions:
+      contents: read # since GH_TOKEN is provided, we only need 'read'
+      pull-requests: write # Needed to create and update pull requests
+      id-token: write # https://docs.npmjs.com/generating-provenance-statements#publishing-packages-with-provenance-via-github-actions
 
     steps:
       - name: Download code from GitHub
