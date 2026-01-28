@@ -31,7 +31,7 @@
     "@octokit/core": "7.0.6",
     "@octokit/plugin-paginate-graphql": "6.0.0",
     "@types/lodash.isempty": "4.4.9",
-    "@types/node": "24.0.15",
+    "@types/node": "24.10.9",
     "lodash.isempty": "4.4.0"
   }
 }
