@@ -62,6 +62,4 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
           pnpm run publish
-          pnpm config delete "//registry.npmjs.org/:_authToken"
