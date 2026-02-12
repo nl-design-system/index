@@ -19,8 +19,8 @@ For information about proprietary assets in this repository, please carefully re
 ### Build locally
 
 ```sh
-pnpm build
-pnpm --filter @nl-design-system/component-progress start
+pnpm run build
+pnpm --filter @nl-design-system/component-progress run start
 ```
 
 The `start` script requires a `GH_ISSUES_TOKEN` enviroment variable. To run it locally take the following steps:

@@ -43,7 +43,7 @@ jobs:
         run: pnpm run build
 
       - name: Run the component-progress script
-        run: pnpm --filter @nl-design-system/component-progress start
+        run: pnpm --filter @nl-design-system/component-progress run start
         env:
           GH_ISSUES_TOKEN: ${{ secrets.GH_ISSUES_TOKEN }}
 
