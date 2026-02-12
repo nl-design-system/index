@@ -40,4 +40,5 @@ Now you can run `source .env; pnpm run build` locally.
 ### Releases
 
 The `@nl-design-system/component-progress` package needs to be updated everytime a release is made, regardless of changes in the repository. This is because it calls GitHub API's for generating JSON files based on GitHub projectboards.
-To make this happen we use `--force-publish=@nl-design-system/component-progress` in de `release` script.
+
+To release the `@nl-design-system/component-progress` package, merge the release PR created by the changesets action. A standard changeset is automatically added after publishing to ensure this PR is always readily available.
