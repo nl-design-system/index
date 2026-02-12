@@ -45,7 +45,7 @@ export const getComponentIssues = async () => {
   } = await octokit.graphql.paginate<ComponentProgress>(
     `query componentProgress($cursor: String) {
   repository(name: "backlog", owner: "nl-design-system") {
-    issues(labels: ["component"], first: 50, after: $cursor) {
+    issues(labels: ["component"], first: 25, after: $cursor) {
       totalCount
       nodes {
         title
