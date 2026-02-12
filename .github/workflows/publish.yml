@@ -48,6 +48,7 @@ jobs:
           GH_ISSUES_TOKEN: ${{ secrets.GH_ISSUES_TOKEN }}
 
       - name: Publish to the npm Registry
+        id: changesets
         uses: changesets/action@c48e67d110a68bc90ccf1098e9646092baacaa87 # v1.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -63,6 +64,7 @@ jobs:
           publish: "pnpm run changeset:publish"
 
       - name: Trigger creation of next release PR
+        if: steps.changesets.outputs.published == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
