@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.2
+
+### Patch Changes
+
+- b67be7a: Update component progress
+
 ## 1.0.1
 
 ### Patch Changes
