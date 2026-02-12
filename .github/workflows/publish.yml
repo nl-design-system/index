@@ -72,5 +72,5 @@ jobs:
         run: |
           cp .changeset/.template.md .changeset/update-component-progress.md
           git add .changeset/update-component-progress.md
-          git commit --author="$GIT_AUTHOR_NAME <$GIT_AUTHOR_EMAIL>" -m "chore: update component progress"
+          git commit --author="${GIT_AUTHOR_NAME} <${GIT_AUTHOR_EMAIL}>" -m "chore: update component progress"
           git push
