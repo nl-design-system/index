@@ -18,7 +18,12 @@ For information about proprietary assets in this repository, please carefully re
 
 ### Build locally
 
-The `pnpm run build` script requires a `GH_ISSUES_TOKEN` enviroment variable. To run it locally take the following steps:
+```sh
+pnpm build
+pnpm --filter @nl-design-system/component-progress start
+```
+
+The `start` script requires a `GH_ISSUES_TOKEN` enviroment variable. To run it locally take the following steps:
 
 1. Create a `.env` file
 2. Create a Personal access token in GitHub
@@ -35,7 +40,7 @@ The `pnpm run build` script requires a `GH_ISSUES_TOKEN` enviroment variable. To
 
 **Note**: This is an access token! It should only be saved locally and never be committed to GitHub or shared with anyone else.
 
-Now you can run `source .env; pnpm run build` locally.
+Now you can run `source .env; pnpm --filter @nl-design-system/component-progress start` locally.
 
 ### Releases
 
