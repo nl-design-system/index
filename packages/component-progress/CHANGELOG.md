@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.5
+
+### Patch Changes
+
+- 28c8152: Update component progress
+
 ## 1.0.4
 
 ### Patch Changes
