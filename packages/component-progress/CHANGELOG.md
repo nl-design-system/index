@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.6
+
+### Patch Changes
+
+- a81f21c: Update component progress
+
 ## 1.0.5
 
 ### Patch Changes
