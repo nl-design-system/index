@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.7
+
+### Patch Changes
+
+- 3dcec7a: Update component progress
+
 ## 1.0.6
 
 ### Patch Changes
