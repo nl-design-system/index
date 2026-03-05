@@ -5,15 +5,14 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write # Needed to update Releases in GitHub after publishing
-  pull-requests: write # Needed to create and update pull requests
-  id-token: write # https://docs.npmjs.com/generating-provenance-statements#publishing-packages-with-provenance-via-github-actions
-
 jobs:
   publish:
     runs-on: ubuntu-latest
     environment: publish
+    permissions:
+      contents: write # Needed to update Releases in GitHub after publishing
+      pull-requests: write # Needed to create and update pull requests
+      id-token: write # https://docs.npmjs.com/generating-provenance-statements#publishing-packages-with-provenance-via-github-actions
 
     steps:
       - name: Checkout
