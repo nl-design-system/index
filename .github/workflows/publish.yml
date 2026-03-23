@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: publish
     permissions:
-      contents: write # Needed to update Releases in GitHub after publishing
-      pull-requests: write # Needed to create and update pull requests
+      contents: read # since GH_TOKEN is provided, we only need 'read'
       id-token: write # https://docs.npmjs.com/generating-provenance-statements#publishing-packages-with-provenance-via-github-actions
 
     steps:
@@ -50,6 +49,7 @@ jobs:
         id: changesets
         uses: changesets/action@6a0a831ff30acef54f2c6aa1cbbc1096b066edaf # v1.7.0
         env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
           GIT_AUTHOR_NAME: "NL Design System"
           GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
