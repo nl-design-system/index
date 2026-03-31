@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.11
+
+### Patch Changes
+
+- 9fc6b2e: Update component progress
+
 ## 1.0.10
 
 ### Patch Changes
