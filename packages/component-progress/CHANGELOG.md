@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.12
+
+### Patch Changes
+
+- dbc24d2: Update component progress
+
 ## 1.0.11
 
 ### Patch Changes
