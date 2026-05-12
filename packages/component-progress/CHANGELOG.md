@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.13
+
+### Patch Changes
+
+- 6db5da2: Update component progress
+
 ## 1.0.12
 
 ### Patch Changes
