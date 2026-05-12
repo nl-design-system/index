@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.15
+
+### Patch Changes
+
+- 2d46518: Update component progress
+
 ## 1.0.14
 
 ### Patch Changes
