@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.17
+
+### Patch Changes
+
+- 05b406d: Update component progress
+
 ## 1.0.16
 
 ### Patch Changes
