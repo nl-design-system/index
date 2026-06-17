@@ -6,10 +6,14 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
 jobs:
   continuous-integration:
     name: Continuous integration
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Download code from GitHub
