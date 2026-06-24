@@ -2,6 +2,15 @@ import isEmpty from 'lodash.isempty';
 import { type MappedProjects, PROJECT_NUMBERS, PROJECTS } from './index.js';
 import type { ComponentIssue, ProjectFieldValue, ProjectItem } from '../graphql/getComponentIssues.js';
 
+const isCommunityOrganizationBoard = (project: ProjectItem['project']): boolean =>
+  project.title.startsWith('Community Components - ');
+
+const isSharedWithCommunity = (fieldValues: ProjectItem['fieldValues']): boolean => {
+  const statusField = fieldValues.nodes.find((node) => !isEmpty(node) && node.field?.name === 'Status');
+
+  return statusField?.color === 'GREEN';
+};
+
 const cleanupValue = ({ field, value, color }: ProjectFieldValue) => {
   // Only allow https values
   if (field.dataType === 'TEXT' && typeof value === 'string' && URL.canParse(value)) {
@@ -129,6 +138,9 @@ export const mapToComponentProgress = (issues: ComponentIssue[], projects: Mappe
       ...issue,
       projects: projectItems.nodes
         .filter(({ project }) => Object.values(PROJECT_NUMBERS).includes(project.number))
+        .filter(
+          ({ project, fieldValues }) => !isCommunityOrganizationBoard(project) || isSharedWithCommunity(fieldValues),
+        )
         .map(cleanupFields)
         .map((component) => getAllTasks(component, projects)),
     }))
