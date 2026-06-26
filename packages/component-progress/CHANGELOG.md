@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.0.19
+
+### Patch Changes
+
+- 417f193: Update component progress
+
 ## 1.0.18
 
 ### Patch Changes
