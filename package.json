@@ -31,7 +31,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "markdownlint-cli": "0.47.0",
-    "npm-check-updates": "19.3.2",
+    "npm-check-updates": "22.2.9",
     "npm-package-json-lint": "9.1.0",
     "prettier": "3.8.1",
     "rimraf": "6.1.2",
@@ -55,8 +55,8 @@
     "changeset:empty": "changeset add --empty",
     "changeset:publish": "changeset publish",
     "changeset:status": "changeset status --since origin/main",
-    "update-patch": "npm-check-updates --configFileName .ncurc.patch.cjs",
-    "update-minor": "npm-check-updates --configFileName .ncurc.minor.cjs",
-    "update-major": "npm-check-updates --configFileName .ncurc.major.cjs"
+    "update-patch": "npm-check-updates --configFileName .ncurc.patch.mjs",
+    "update-minor": "npm-check-updates --configFileName .ncurc.minor.mjs",
+    "update-major": "npm-check-updates --configFileName .ncurc.major.mjs"
   }
 }
