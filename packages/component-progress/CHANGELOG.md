@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.1.0
+
+### Minor Changes
+
+- cc2630d: Only include community components with a green status field (anything else = opt out)
+
+### Patch Changes
+
+- 417f193: Update component progress
+
 ## 1.0.18
 
 ### Patch Changes
