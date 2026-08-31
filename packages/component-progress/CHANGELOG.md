@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.3
+
+### Patch Changes
+
+- b4a126d: Update component progress
+
 ## 1.1.2
 
 ### Patch Changes
