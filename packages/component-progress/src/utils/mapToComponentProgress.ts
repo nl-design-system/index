@@ -85,6 +85,10 @@ const getAllTasks = (issue: CleanComponent, projects: MappedProjects): ExtendedC
   };
 };
 
+// const determineCommunityStatus = (issue: CleanComponentProgress) => {
+
+// }
+
 export type RelayStep = 'HALL_OF_FAME' | 'CANDIDATE' | 'COMMUNITY' | 'HELP_WANTED' | 'UNKNOWN';
 
 const getRelayStep = (issue: Omit<CleanComponentProgress, 'relayStep'>): CleanComponentProgress => {
