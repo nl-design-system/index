@@ -37,3 +37,5 @@ savePrefix: ''
 strictPeerDependencies: false
 
 provenance: true
+overrides:
+  shell-quote@>=1.8.4 <1.11.0: 1.11.0
