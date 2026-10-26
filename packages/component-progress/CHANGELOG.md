@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.9
+
+### Patch Changes
+
+- d76a23d: Update component progress
+
 ## 1.1.8
 
 ### Patch Changes
