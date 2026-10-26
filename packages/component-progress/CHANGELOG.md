@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.8
+
+### Patch Changes
+
+- a43ed25: Update component progress
+
 ## 1.1.7
 
 ### Patch Changes
