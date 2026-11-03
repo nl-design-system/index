@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.10
+
+### Patch Changes
+
+- e6c20b9: Update component progress
+
 ## 1.1.9
 
 ### Patch Changes
