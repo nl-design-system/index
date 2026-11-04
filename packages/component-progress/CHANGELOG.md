@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.12
+
+### Patch Changes
+
+- ceb1d92: Update component progress
+
 ## 1.1.11
 
 ### Patch Changes
