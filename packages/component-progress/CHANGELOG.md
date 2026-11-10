@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.13
+
+### Patch Changes
+
+- 107e790: Update component progress
+
 ## 1.1.12
 
 ### Patch Changes
