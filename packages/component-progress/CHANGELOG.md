@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.15
+
+### Patch Changes
+
+- 4479545: Update component progress
+
 ## 1.1.14
 
 ### Patch Changes
