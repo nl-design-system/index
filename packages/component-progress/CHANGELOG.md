@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.19
+
+### Patch Changes
+
+- de39db4: Update component progress
+
 ## 1.1.18
 
 ### Patch Changes
