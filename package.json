@@ -19,7 +19,7 @@
     "pnpm": "^12"
   },
   "devDependencies": {
-    "@babel/core": "7.28.6",
+    "@babel/core": "7.29.7",
     "@babel/plugin-syntax-import-attributes": "7.29.7",
     "@eslint/js": "9.39.2",
     "@eslint/json": "0.14.0",
