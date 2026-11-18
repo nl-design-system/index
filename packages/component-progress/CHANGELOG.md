@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.21
+
+### Patch Changes
+
+- 09941cd: Update component progress
+
 ## 1.1.20
 
 ### Patch Changes
