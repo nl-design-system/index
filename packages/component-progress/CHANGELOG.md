@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.22
+
+### Patch Changes
+
+- c5cd5bb: Update component progress
+
 ## 1.1.21
 
 ### Patch Changes
